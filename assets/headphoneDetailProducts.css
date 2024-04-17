@@ -45,6 +45,7 @@
   opacity: 50%;
   margin-bottom: 32px;
 }
+
 .detail-product-content h4 {
   color: #000;
   font-weight: 700;
@@ -68,15 +69,12 @@
 
 .select-product {
   display: flex;
-}
-
-.b {
-  display: flex;
   gap: 16px;
   align-items: center;
   text-align: center;
 }
-.a {
+
+.select-product-btn {
   display: flex;
   background-color: #F1F1F1;
   align-items: center;
@@ -84,7 +82,7 @@
   justify-content: center;
 }
 
-.a button  {
+.select-product-btn button  {
   margin: 7px 15px;
 
   color: #000000;
