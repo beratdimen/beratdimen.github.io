@@ -1,0 +1,44 @@
+.middle {
+  display: flex;
+  position: relative;
+  gap: 30px;
+  margin: 0 auto;
+  width: 1110px;
+}
+
+.box {
+  text-align: center;
+  margin: 120px 10px;
+  position: relative;
+  padding-block: 116px 30px;
+  background-color: #f1f1f1;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.box img {
+  position: absolute;
+  top: -86px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.middle .box:nth-child(3) img {
+  top: -60px;
+}
+.middle a {
+  text-decoration: none;
+  color: #000000;
+  opacity: 50%;
+}
+.middle a:hover {
+  color: #d87d4a;
+}
+.middle a span {
+  color: #d87d4a;
+}
+.middle h5 {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.3px;
+}

@@ -1,0 +1,27 @@
+.header-bar {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 36px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: #d87d4a;
+}
