@@ -241,16 +241,16 @@ span {
 /* buton start  */
 
 .btn {
-  padding: 15px 35px;
-  background-color: #e2dedb;
   position: absolute;
   right: 10%;
   border-radius: 6px;
 }
 
 .btn a {
+  padding: 15px 35px;
   font-family: "Fraunces", serif;
   color: #fefcf7;
+  background-color: #e2dedb;
   font-size: 18px;
   font-weight: 900;
   line-height: 25px;
@@ -258,7 +258,7 @@ span {
 }
 
 .btn a:hover {
-  color: #66D2CF;
+  background-color: #66D2CF;
 }
 
 /* buton end  */
