@@ -198,6 +198,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  text-align: center;
 }
 
 .projeler-box-tanitim {
@@ -208,6 +209,7 @@ body {
   font-size: 35px;
   line-height: 25px;
   color: aqua;
+  padding-bottom: 25px;
 }
 
 .projeler-box {
