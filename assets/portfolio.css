@@ -194,10 +194,15 @@ body {
 /* yetenek kısmı bitiş */
 
 /* projelerim kısmı başlangıç */
+.projeler {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
 
 .projeler-box-tanitim {
-display: grid;
-grid-template-columns: repeat(4,1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .projeler h4 {
   font-size: 35px;
@@ -227,5 +232,6 @@ grid-template-columns: repeat(4,1fr);
 }
 
 .projeler-box a:hover {
-color: green;}
+  color: green;
+}
 /* projelerim kısmı bitiş */
