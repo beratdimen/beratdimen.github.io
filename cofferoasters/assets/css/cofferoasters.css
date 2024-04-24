@@ -86,7 +86,7 @@ body {
 /* collection start  */
 
 .collection {
-  background-image: url(/assets/img/collection-background.png);
+  background-image: url(/cofferoasters/assets/img/collection-background.png);
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

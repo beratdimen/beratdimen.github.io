@@ -169,13 +169,13 @@ details summary {
 }
 
 .sss summary {
-  background: url("/assets/img/close-detail-icon.svg") right center no-repeat;
+  background: url("/cofferoasters/assets/img/close-detail-icon.svg") right center no-repeat;
   cursor: pointer;
   list-style: none;
 }
 
 .sss details[open] summary {
-  background-image: url("/assets/img/open-detail-icon.png");
+  background-image: url("/cofferoasters/assets/img/open-detail-icon.png");
 }
 
 .product {
@@ -255,7 +255,10 @@ span {
   font-weight: 900;
   line-height: 25px;
   text-decoration: none;
+}
 
+.btn a:hover {
+  color: #66D2CF;
 }
 
 /* buton end  */
