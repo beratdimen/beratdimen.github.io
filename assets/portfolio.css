@@ -237,4 +237,28 @@ body {
 .projeler-box a:hover {
   color: green;
 }
+
+/* dropdown menü */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown img {
+  width: 300px;
+}
+
+.gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 300px;
+}
+
+.dropdown:hover .gif {
+  opacity: 1;
+}
+/* dropdown menü */
+
 /* projelerim kısmı bitiş */
