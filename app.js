@@ -13,3 +13,17 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  var hakkimdaLink = document.querySelector(".yollar li:nth-child(2) a");
+  var hakkimdaBolgesi = document.querySelector(".hakkimda");
+
+  hakkimdaLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    var hakkimdaBolgePos = hakkimdaBolgesi.offsetTop;
+    window.scrollTo({
+      top: hakkimdaBolgePos,
+      behavior: "smooth"
+    });
+  });
+});
