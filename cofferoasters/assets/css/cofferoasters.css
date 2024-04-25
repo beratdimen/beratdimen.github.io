@@ -200,6 +200,33 @@ body {
   padding-inline: 85px;
 }
 
+.img {
+  position: relative;
+}
+
+.oval-1 {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+
+.oval-2 {
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+
+.oval-3 {
+  position: absolute;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+
 .how-it-works h4 {
   font-family: "Fraunces", serif;
   font-size: 24px;
