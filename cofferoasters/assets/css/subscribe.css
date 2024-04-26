@@ -267,6 +267,9 @@ span {
   color: #0e8784;
 }
 
+.product-box:hover {
+  background-color: #FDD6BA;
+}
 /* content tab container end  */
 
 /* buton start  */
