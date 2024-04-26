@@ -224,7 +224,6 @@ body {
 }
 
 .projeler-box img {
-  width: 300px;
   height: 150px;
   transition: width 0.3s ease;
   padding-bottom: 20px;
@@ -244,7 +243,6 @@ body {
   display: inline-block;
 }
 .dropdown img {
-  width: 300px;
   height: 150px;
 
 }
