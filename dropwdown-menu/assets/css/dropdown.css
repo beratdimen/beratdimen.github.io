@@ -150,6 +150,10 @@ body {
   padding-bottom: 30px;
 }
 
+.arac-menu:hover {
+padding-bottom: 85px;
+}
+
 .arac-menu ul {
   list-style-type: none;
   margin: 0;
