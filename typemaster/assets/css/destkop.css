@@ -21,7 +21,7 @@ body {
   padding: 125px 240px;
   position: absolute;
   top: 196px;
-  right: -410px;
+  right: -420px;
 }
 
 .container-left-bg-img {
@@ -30,7 +30,7 @@ body {
   position: absolute;
   padding: 125px 240px;
   top: 950px;
-  left: 0;
+  left: -65px;
 }
 
 /* container background rigt left end  */
