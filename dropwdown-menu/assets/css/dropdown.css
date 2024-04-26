@@ -308,7 +308,6 @@ padding-bottom: 85px;
 
 .cok-seviyeli-menu {
   width: 1110px;
-  margin: 0 auto;
   display: flex;
   text-align: start;
   font-weight: bold;
@@ -384,6 +383,7 @@ padding-bottom: 85px;
 /* çok seviyeli menu end  */
 
 /* mega menü start  */
+
 .mega-menu-aciklama {
   width: 1110px;
   margin: 0 auto;
@@ -391,7 +391,6 @@ padding-bottom: 85px;
 
 .mega-menu-text {
   width: 1110px;
-  margin: 0 auto;
   display: flex;
   text-align: start;
   font-weight: bold;
@@ -457,7 +456,6 @@ padding-bottom: 85px;
 
 .hamburger-menu-text {
   width: 1110px;
-  margin: 0 auto;
   display: flex;
   text-align: start;
   font-weight: bold;
