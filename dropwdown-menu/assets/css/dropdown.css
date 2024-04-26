@@ -9,12 +9,13 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 1440px;
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
 }
 /* header start  */
 .header {
+  width: 1110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +38,7 @@ body {
 .hero {
   display: flex;
   background-color: #3b98caa4;
-  width: 80%;
+  width: 1110px;
   margin: 0 auto;
   padding: 85px;
   gap: 120px;
@@ -94,6 +95,11 @@ body {
 /* hero end  */
 
 /* .tanıtım start  */
+
+.tanitim{
+  width: 1110px;
+}
+
 .tanitim h3 {
   color: #3b98ca;
   font-size: 30px;
@@ -125,6 +131,7 @@ body {
 
 /* ornek start  */
 .ornek {
+  width: 1110px;
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
@@ -192,6 +199,8 @@ body {
 
 .ipucu {
   margin-top: 80px;
+  width: 1110px;
+
 }
 
 .ipucu h3 {
@@ -217,6 +226,14 @@ body {
 /* ipucu end  */
 
 /* dropdown-cesitleri  start  */
+.basit-text {
+  width: 1110px;
+}
+
+.menu-tanitim {
+  width: 1110px;
+
+}
 
 .menu-isimleri {
   margin-bottom: 50px;
@@ -277,11 +294,18 @@ body {
 
 /* çok seviyeli menu start  */
 
+.cok-seviyeli-dropdown-menu {
+  width: 1110px;
+
+}
+
 .cok-seviyeli-menu {
   display: flex;
   text-align: start;
   font-weight: bold;
   margin-bottom: 50px;
+  width: 1110px;
+
 }
 
 .dropbtn {
@@ -353,12 +377,17 @@ body {
 /* çok seviyeli menu end  */
 
 /* mega menü start  */
+.mega-menu-aciklama {
+  width: 1110px;
+
+}
 
 .mega-menu-text {
   display: flex;
   text-align: start;
   font-weight: bold;
   margin-bottom: 50px;
+  width: 1110px;
 }
 
 .menu {
@@ -412,6 +441,10 @@ body {
 /* mega menü end  */
 
 /* hamburger menü start  */
+
+.hamburger-menu-aciklama {
+  width: 1110px;
+}
 
 .bar {
   width: 25px;
@@ -476,10 +509,16 @@ body {
   text-align: start;
   font-weight: bold;
   margin-bottom: 50px;
+  width: 1110px;
+
 }
 /* hamburger menü end  */
 
 /* context menü start  */
+.context-menu-aciklama{
+  width: 1110px;
+
+}
 
 .context-menu {
   position: absolute;
@@ -491,6 +530,8 @@ body {
 
 .context-menu-aciklama {
   margin-bottom: 100px;
+  width: 1110px;
+
 }
 .context-menu ul {
   list-style: none;
@@ -518,6 +559,10 @@ body {
 /* context menü end  */
 
 /* araç menüsü start  */
+.arac-menu-aciklama {
+  width: 1110px;
+  margin-bottom: 100px;
+}
 
 .editor-menu {
   position: relative;
@@ -559,13 +604,14 @@ body {
   border: 1px solid #ccc;
   padding: 10px;
   min-height: 100px;
-  margin-bottom: 100px;
 }
 /* araç menüsü end  */
 
 /* form menü start  */
 .form-menu-aciklama {
   margin-bottom: 150px;
+  width: 1110px;
+
 }
 
 .form-menu {
@@ -610,12 +656,13 @@ input[type="submit"]:hover {
 }
 
 /* form menü end  */
+
 /* örnek menü icon start  */
 .ornek-menu-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 65%;
+  width: 1110px;
   margin: 0 auto;
   margin-bottom: 150px;
 }
@@ -633,6 +680,7 @@ input[type="submit"]:hover {
   background-color: #3b98caa4;
   padding: 15px;
   margin-bottom: 15px;
+  width: 1110px;
 }
 
 .footer p {
