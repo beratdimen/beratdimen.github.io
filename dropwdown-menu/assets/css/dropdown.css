@@ -16,6 +16,7 @@ body {
 /* header start  */
 .header {
   width: 1110px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +24,6 @@ body {
   background-color: #3b98caa4;
   padding: 5px 15px;
   margin: 0 auto;
-
 }
 
 .header a {
@@ -44,8 +44,6 @@ body {
   margin: 0 auto;
   padding: 85px;
   gap: 120px;
-  margin: 0 auto;
-
 }
 
 .hero h3 {
@@ -100,10 +98,9 @@ body {
 
 /* .tanıtım start  */
 
-.tanitim{
+.tanitim {
   width: 1110px;
   margin: 0 auto;
-
 }
 
 .tanitim h3 {
@@ -138,11 +135,10 @@ body {
 /* ornek start  */
 .ornek {
   width: 1110px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
-  margin: 0 auto;
-
 }
 
 .ornek h2 {
@@ -206,9 +202,9 @@ body {
 /* ipucu start  */
 
 .ipucu {
-  margin-top: 80px;
   width: 1110px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 .ipucu h3 {
@@ -237,12 +233,10 @@ body {
 .basit-text {
   width: 1110px;
   margin: 0 auto;
-
 }
 
 .menu-tanitim {
   width: 1110px;
-
 }
 
 .menu-isimleri {
@@ -310,12 +304,12 @@ body {
 }
 
 .cok-seviyeli-menu {
+  width: 1110px;
+  margin: 0 auto;
   display: flex;
   text-align: start;
   font-weight: bold;
   margin-bottom: 50px;
-  width: 1110px;
-
 }
 
 .dropbtn {
@@ -393,11 +387,12 @@ body {
 }
 
 .mega-menu-text {
+  width: 1110px;
+  margin: 0 auto;
   display: flex;
   text-align: start;
   font-weight: bold;
   margin-bottom: 50px;
-  width: 1110px;
 }
 
 .menu {
@@ -455,7 +450,15 @@ body {
 .hamburger-menu-aciklama {
   width: 1110px;
   margin: 0 auto;
+}
 
+.hamburger-menu-text {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  text-align: start;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .bar {
@@ -516,20 +519,18 @@ body {
   transform: translateY(-6px) rotate(-45deg); /* Üçüncü çizgi hareketi */
 }
 
-.hamburger-menu-text {
-  display: flex;
-  text-align: start;
-  font-weight: bold;
-  margin-bottom: 50px;
-  width: 1110px;
-
-}
 /* hamburger menü end  */
 
 /* context menü start  */
-.context-menu-aciklama{
+.context-menu-aciklama {
   width: 1110px;
   margin: 0 auto;
+}
+
+.context-menu-aciklama {
+  width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .context-menu {
@@ -540,11 +541,6 @@ body {
   display: none;
 }
 
-.context-menu-aciklama {
-  margin-bottom: 100px;
-  width: 1110px;
-
-}
 .context-menu ul {
   list-style: none;
   margin: 0;
@@ -573,8 +569,8 @@ body {
 /* araç menüsü start  */
 .arac-menu-aciklama {
   width: 1110px;
-  margin-bottom: 100px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .editor-menu {
@@ -622,9 +618,9 @@ body {
 
 /* form menü start  */
 .form-menu-aciklama {
-  margin-bottom: 150px;
   width: 1110px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 
 .form-menu {
@@ -672,11 +668,11 @@ input[type="submit"]:hover {
 
 /* örnek menü icon start  */
 .ornek-menu-icon {
+  width: 1110px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1110px;
-  margin: 0 auto;
   margin-bottom: 150px;
 }
 
@@ -688,14 +684,13 @@ input[type="submit"]:hover {
 /* footer start  */
 
 .footer {
+  width: 1110px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   background-color: #3b98caa4;
   padding: 15px;
   margin-bottom: 15px;
-  width: 1110px;
-  margin: 0 auto;
-
 }
 
 .footer p {
