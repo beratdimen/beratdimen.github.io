@@ -269,6 +269,7 @@ span {
 
 .product-box:hover {
   background-color: #FDD6BA;
+  cursor: pointer;
 }
 /* content tab container end  */
 
