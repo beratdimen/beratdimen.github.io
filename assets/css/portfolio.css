@@ -194,6 +194,7 @@ body {
 /* yetenek kısmı bitiş */
 
 /* projelerim kısmı başlangıç */
+
 .projeler {
   display: flex;
   flex-direction: column;
@@ -205,6 +206,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .projeler h4 {
   font-size: 35px;
   line-height: 25px;
@@ -239,14 +241,14 @@ body {
 }
 
 /* dropdown menü */
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
 }
+
 .dropdown img {
   width: 300px;
   height: 150px;
-
 }
 
 .gif {
@@ -260,7 +262,8 @@ body {
 
 .dropdown:hover .gif {
   opacity: 1;
-}
+} */
+
 /* dropdown menü */
 
 /* projelerim kısmı bitiş */
