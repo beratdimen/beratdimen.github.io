@@ -172,7 +172,6 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   margin-bottom: 130px;
-  align-items: center;
 }
 .promotion-box img {
   margin-bottom: 48px;
