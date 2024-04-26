@@ -203,7 +203,7 @@ body {
 
 .projeler-box-tanitim {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .projeler h4 {
   font-size: 35px;
@@ -239,7 +239,7 @@ body {
 }
 
 /* dropdown menü */
-/* .dropdown {
+.dropdown {
   position: relative;
   display: inline-block;
 }
@@ -260,7 +260,7 @@ body {
 
 .dropdown:hover .gif {
   opacity: 1;
-} */
+}
 /* dropdown menü */
 
 /* projelerim kısmı bitiş */
