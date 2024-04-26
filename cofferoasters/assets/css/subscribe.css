@@ -81,6 +81,8 @@ body {
 /* content container start  */
 .content-container {
   background-color: #2c343e;
+  width: 1280px;
+
 }
 
 .img {
@@ -112,7 +114,6 @@ body {
 }
 
 .content {
-  width: 1280px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   background-color: #2c343e;
