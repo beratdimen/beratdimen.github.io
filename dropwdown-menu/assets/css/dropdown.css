@@ -22,6 +22,8 @@ body {
   margin-bottom: 80px;
   background-color: #3b98caa4;
   padding: 5px 15px;
+  margin: 0 auto;
+
 }
 
 .header a {
@@ -42,6 +44,8 @@ body {
   margin: 0 auto;
   padding: 85px;
   gap: 120px;
+  margin: 0 auto;
+
 }
 
 .hero h3 {
@@ -98,6 +102,8 @@ body {
 
 .tanitim{
   width: 1110px;
+  margin: 0 auto;
+
 }
 
 .tanitim h3 {
@@ -135,6 +141,8 @@ body {
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
+  margin: 0 auto;
+
 }
 
 .ornek h2 {
@@ -200,7 +208,7 @@ body {
 .ipucu {
   margin-top: 80px;
   width: 1110px;
-
+  margin: 0 auto;
 }
 
 .ipucu h3 {
@@ -228,6 +236,8 @@ body {
 /* dropdown-cesitleri  start  */
 .basit-text {
   width: 1110px;
+  margin: 0 auto;
+
 }
 
 .menu-tanitim {
@@ -296,7 +306,7 @@ body {
 
 .cok-seviyeli-dropdown-menu {
   width: 1110px;
-
+  margin: 0 auto;
 }
 
 .cok-seviyeli-menu {
@@ -379,7 +389,7 @@ body {
 /* mega menü start  */
 .mega-menu-aciklama {
   width: 1110px;
-
+  margin: 0 auto;
 }
 
 .mega-menu-text {
@@ -444,6 +454,8 @@ body {
 
 .hamburger-menu-aciklama {
   width: 1110px;
+  margin: 0 auto;
+
 }
 
 .bar {
@@ -517,7 +529,7 @@ body {
 /* context menü start  */
 .context-menu-aciklama{
   width: 1110px;
-
+  margin: 0 auto;
 }
 
 .context-menu {
@@ -562,6 +574,7 @@ body {
 .arac-menu-aciklama {
   width: 1110px;
   margin-bottom: 100px;
+  margin: 0 auto;
 }
 
 .editor-menu {
@@ -611,7 +624,7 @@ body {
 .form-menu-aciklama {
   margin-bottom: 150px;
   width: 1110px;
-
+  margin: 0 auto;
 }
 
 .form-menu {
@@ -681,6 +694,8 @@ input[type="submit"]:hover {
   padding: 15px;
   margin-bottom: 15px;
   width: 1110px;
+  margin: 0 auto;
+
 }
 
 .footer p {
