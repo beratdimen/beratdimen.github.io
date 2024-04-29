@@ -1,0 +1,541 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0px;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  .container {
+    width: 345px;
+    margin-inline: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0 auto;
+  }
+
+    /* header start  */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #030303;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 27px;
+  }
+
+  /* header end  */
+
+
+
+  /* hero start */
+
+.hero_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+  .hero_text h1 {
+    color: #030303;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+.hero_text p {
+    color: #7A746E;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-inline: 29px;
+}
+
+  /* hero end */
+
+
+
+  /* skills_container start */
+
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.graphic_design {
+    background-color: #755CDE;
+    border-radius: 8px;
+}
+
+.graphic_design img {
+   padding: 24px 24px 95px 190px;
+}
+
+.skills_container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.skills_container h4 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+
+.services_middle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.ui_ux {
+    background-color: #F6A560;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.ui_ux img {
+    padding: 24px 24px 40px 70px;
+}
+
+.apps {
+    background-color: #F39E9E;
+    width: 160px;
+    border-radius: 8px;
+}
+
+.apps img {
+    padding: 24px 24px 40px 70px;
+}
+
+.Illustrations {
+    background-color: #EB7565;
+    border-radius: 8px;
+}
+
+.Illustrations img {
+    padding: 24px 24px 16px 190px;
+}
+
+.photography {
+    background-color: #61C4B7;
+    border-radius: 8px;
+}
+
+.photography img {
+    padding: 24px 24px 40px 160px;
+}
+
+.motion_graphics {
+    background-color: #552049;
+    border-radius: 8px;
+}
+
+.motion_graphics img {
+    padding: 24px 24px 40px 190px;
+}
+
+  /* hero_container end */
+
+
+
+      /* about start  */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.about_text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.about_text h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32.76px;
+}
+
+.about_text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.about_text a {
+    width: 176px;
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #EB7565;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 27px;
+}
+
+  /* about end  */
+
+
+  /* about_us_card start  */
+
+  .about_us_card {
+    background-color: #030303;
+    padding: 49px 24px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .about_us_card_text h3 {
+    color: #FFF7F0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .about_us_card_text p {
+    color: #FFF7F0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 80%;
+  }
+
+  .about_us_card_text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+.about_us_card a {
+    width: 176px;
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #EB7565;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 27px;
+}
+
+
+  /* about_us_card end  */
+
+
+  /* footer start  */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF7F0;
+    background-color: #030303;
+    border-radius: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 8px 27px;
+}
+  /* footer end  */
+
+
+  
+  /* tablet kıısmı start */
+
+@media (width >= 768px) {
+
+.container {
+  width: 690px;
+}
+
+.services_middle {
+ width: 335px;
+} 
+
+.div {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.graphic_design {
+  width: 333px;
+}
+
+.ui_ux {
+  width: 155px;
+}
+
+.apps {
+  width: 155px;
+}
+
+.Illustrations {
+  width: 333px;
+}
+
+
+.photography {
+  width: 333px;
+}
+
+.motion_graphics {
+  width: 333px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_images img {
+  width: 364px;
+}
+
+.about_text {
+  text-align: start;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 360px;
+}
+
+.about_text h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.about_text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7A746E;
+}
+
+.about_us_card {
+  padding: 56px 75px 64px 75px;
+  gap: 26px;
+}
+
+.about_us_card_text h3 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #FFF7F0;
+}
+
+.about_us_card_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFF7F0;
+}
+
+}
+
+  /* tablet kıısmı end  */
+
+
+
+  /* desktop kısmı start  */
+
+@media (width > 1201px) {
+  
+.container {
+  width: 1110px;
+}
+
+.skills_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.graphic_design {
+  width: 354px;
+}
+
+.ui_ux {
+  width: 164px;
+  height: 182px;
+}
+
+.apps {
+  width: 164px;
+  height: 182px;
+}
+
+.Illustrations {
+  width: 354px;
+  height: 182px;
+}
+
+
+.photography {
+  width: 354px;
+}
+
+.motion_graphics {
+  width: 354px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.services_middle {
+  width: 354px;
+  gap: 24px;
+ } 
+ 
+
+
+ .about {
+  gap: 125px;
+ }
+
+ .about_text {
+  text-align: start;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 540px;
+}
+
+.about_images img {
+  width: 445px;
+  height: 445px;
+}
+
+.about_text h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.about_text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7A746E;
+}
+
+.about_us_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 95px 80px 65px;
+}
+
+.about_us_card_text {
+  text-align: start;
+  width: 540px;
+}
+
+.about_us_card_text h3 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.about_us_card_text p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+}
+
+  /* desktop kısmı end  */
+
+
+
+  /* hover durumu  start */
+
+header a:hover {
+  background-color: #755CDE;
+}
+
+footer a:hover {
+  background-color: #755CDE;
+}
+
+.about_text a:hover {
+  background-color: #F6A560;
+}
+
+.about_us_card a:hover {
+  background-color: #F6A560;
+}
+
+  /* hover durumu  end */
+
