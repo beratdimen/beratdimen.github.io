@@ -118,7 +118,7 @@ body {
 /* mobil geçiş start  */
 .mobil-gecis {
   display: none;
- }
+}
 
 /* hakkımda başlangıç */
 
@@ -189,6 +189,12 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  cursor: pointer;
+  transition: transform 1s ease;
+}
+
+.yetenekler-box:hover {
+  transform: scale(1.5);
 }
 
 .yetenekler-box h4 {
@@ -273,122 +279,116 @@ body {
 
 /* projelerim kısmı bitiş */
 
-
 /* mobil start  */
 
 @media (width <= 425px) {
-
   /* header start  */
-  
+
   .baslik {
     display: flex;
     flex-direction: column;
   }
   .baslik .yollar {
-  display: none;
-}
+    display: none;
+  }
   /* header end  */
 
   /* giris start  */
 
-.giris {
-  display: flex;
-  flex-direction: column;
-}
+  .giris {
+    display: flex;
+    flex-direction: column;
+  }
 
-.giris .yazi {
-  text-align: center;
-  margin-bottom: 25px;
-}
+  .giris .yazi {
+    text-align: center;
+    margin-bottom: 25px;
+  }
 
-.giris .kullanici {
-  width: 280px;
-  height: auto;
-  border-radius: 1px;
-}
+  .giris .kullanici {
+    width: 280px;
+    height: auto;
+    border-radius: 1px;
+  }
 
-.yetenek {
-  display: none;
-}
+  .yetenek {
+    display: none;
+  }
 
-.web-site-gecis {
-  display: none;
-}
+  .web-site-gecis {
+    display: none;
+  }
   /* giris end   */
 
-/* hakkımda start  */
+  /* hakkımda start  */
 
-.hakkimda {
-  flex-direction: column;
-}
+  .hakkimda {
+    flex-direction: column;
+  }
 
-.hakkimda img {
-  display: none;
-}
+  .hakkimda img {
+    display: none;
+  }
 
-.hakkimda-text {
-  width: 330px;
-  align-items: center;
-  text-align: center;
-}
+  .hakkimda-text {
+    width: 330px;
+    align-items: center;
+    text-align: center;
+  }
 
-.yetenekler {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 40px;
-}
+  .yetenekler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
 
-.yetenekler img {
-  width: 50px;
-}
+  .yetenekler img {
+    width: 50px;
+  }
 
-.yetenekler-box h4 {
-  font-size: 20px;
-}
+  .yetenekler-box h4 {
+    font-size: 20px;
+  }
 
-.projeler-box-tanitim {
-  display: grid;
-  grid-template-columns:1fr;
-}
+  .projeler-box-tanitim {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-.yetenekler-box {
-cursor: pointer;
-transition: transform 1s ease;
-}
+  .yetenekler-box {
+    cursor: pointer;
+    transition: transform 1s ease;
+  }
 
-.yetenekler-box:hover {
-  transform: scale(1.5);
-}
+  
 
+  /* hakkımda end */
 
-/* hakkımda end */
+  /* projeler start  */
 
-/* projeler start  */
+  .projeler-box img:hover {
+    transform: scale(1.5);
+  }
 
-.projeler-box img:hover {
-  transform: scale(1.5);
-}
+  .projeler-box img {
+    width: 200px;
+    height: 100px;
+  }
 
-.projeler-box img {
-  width: 200px;
-  height: 100px;
-}
+  .projeler-box {
+    padding-bottom: 20px;
+  }
+  /* projeler end  */
 
-.projeler-box {
-  padding-bottom: 20px;
-}
-/* projeler end  */
+  /* mobil web site geçiş  */
 
-/* mobil web site geçiş  */
-
-.mobil-gecis {
-  gap: 40px;
-  background-color: darkgray;
-  display: flex;
-  justify-content: center;
-  font-style: italic;
-}
-
+  .mobil-gecis {
+    gap: 40px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+  }
 }
 
 /* mobil end  */
