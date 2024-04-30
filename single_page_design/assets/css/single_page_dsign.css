@@ -214,7 +214,6 @@
 
 
 .about_text a {
-    width: 176px;
     text-decoration: none;
     color: #FFF7F0;
     background-color: #EB7565;
@@ -222,7 +221,9 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-    padding: 8px 27px;
+    padding: 16px 45px;
+    align-items: center;
+    text-align: center;
 }
 
   /* about end  */
@@ -264,7 +265,6 @@
   }
 
 .about_us_card a {
-    width: 176px;
     text-decoration: none;
     color: #FFF7F0;
     background-color: #EB7565;
@@ -272,7 +272,7 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
-    padding: 8px 27px;
+    padding: 16px 45px;
 }
 
 
