@@ -175,3 +175,103 @@
   line-height: 26px;
   font-weight: 400;
 }
+
+
+/* mobil kısmı start  */
+
+@media (width <= 425px) {
+  .container {
+    width: 425px;
+    margin: 0 auto;
+  }
+
+  /* header start  */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+  }
+  .menu-icon {
+    display: block;
+    margin-right: 40px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  /* header end  */
+
+  /* slider start  */
+
+  .slider {
+    width: 345px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 70px;
+    margin-inline: 16px;
+  }
+
+  .slider-box img {
+    width: 345px;
+  }
+
+  .slider-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider-box-content {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+  }
+
+  .slider-box-content h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    text-align: left;
+  }
+
+  .slider-box-content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    width: 345px;
+  }
+
+  .slider-new h2 {
+    color: #e9aa52;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .slider-new p {
+    margin-top: 10px;
+  }
+
+  /* slider end  */
+
+  /* footer start  */
+
+  .footer {
+    width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 130px;
+  }
+
+  /* footer end  */
+}
+
+/* mobil kısmı end  */
