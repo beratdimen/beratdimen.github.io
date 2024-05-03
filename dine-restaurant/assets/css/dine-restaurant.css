@@ -275,7 +275,7 @@ h4 {
 .reservation {
   width: 375px;
   object-fit: cover;
-  background-image: url(/dine-restaurant/assets/img/reservation.jpg);
+  background-image: url(../img/reservation.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 84px 24px;
@@ -495,7 +495,7 @@ h4 {
   /* reservation ksımı start  */
 
   .reservation {
-    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
+    background-image: url(../img/reservation-tablet.jpg);
     width: 768px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -565,7 +565,7 @@ h4 {
    /* hero start  */
 
    .hero {
-    background-image: url(/dine-restaurant/assets/img/hero-bg-desktop.png);
+    background-image: url(../img/hero-bg-desktop.png);
     background-repeat: no-repeat;
     padding: 65px 768px 198px 165px;
     align-items: start;
@@ -606,7 +606,7 @@ h4 {
   /* kategori start  */
 
   .categorie-box {
-    background-image: url(/dine-restaurant/assets/img/left-container-g-bg.png);
+    background-image: url(../img/left-container-g-bg.png);
     background-position: left;
     background-repeat: no-repeat;
     display: flex;
@@ -658,7 +658,7 @@ h4 {
   }
 
   .row-reverse {
-    background-image: url(/dine-restaurant/assets/img/right-container-g-bg.png);
+    background-image: url(../img/right-container-g-bg.png);
     background-position: right 0 bottom 115px;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -743,7 +743,7 @@ h4 {
 
   /* reservation start  */
   .reservation {
-    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
+    background-image: url(../img/reservation-tablet.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -818,7 +818,7 @@ h4 {
   /* hero start  */
 
   .hero {
-    background-image: url(/dine-restaurant/assets/img/hero-bg-desktop.png);
+    background-image: url(../img/hero-bg-desktop.png);
     background-repeat: no-repeat;
     padding: 65px 768px 198px 165px;
     align-items: start;
@@ -859,7 +859,7 @@ h4 {
   /* kategori start  */
 
   .categorie-box {
-    background-image: url(/dine-restaurant/assets/img/left-container-g-bg.png);
+    background-image: url(../img/left-container-g-bg.png);
     background-position: left;
     background-repeat: no-repeat;
     display: flex;
@@ -911,7 +911,7 @@ h4 {
   }
 
   .row-reverse {
-    background-image: url(/dine-restaurant/assets/img/right-container-g-bg.png);
+    background-image: url(../img/right-container-g-bg.png);
     background-position: right 0 bottom 115px;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -996,7 +996,7 @@ h4 {
 
   /* reservation start  */
   .reservation {
-    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
+    background-image: url(../img/reservation-tablet.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
