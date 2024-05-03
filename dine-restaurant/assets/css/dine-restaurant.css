@@ -275,7 +275,7 @@ h4 {
 .reservation {
   width: 375px;
   object-fit: cover;
-  background-image: url(/dine-restaurant/img/reservation.jpg);
+  background-image: url(/dine-restaurant/assets/img/reservation.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 84px 24px;
@@ -495,7 +495,7 @@ h4 {
   /* reservation ksımı start  */
 
   .reservation {
-    background-image: url(/dine-restaurant/img/reservation-tablet.jpg);
+    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
     width: 768px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -565,7 +565,7 @@ h4 {
    /* hero start  */
 
    .hero {
-    background-image: url(/dine-restaurant/img/hero-bg-desktop.png);
+    background-image: url(/dine-restaurant/assets/img/hero-bg-desktop.png);
     background-repeat: no-repeat;
     padding: 65px 768px 198px 165px;
     align-items: start;
@@ -606,260 +606,7 @@ h4 {
   /* kategori start  */
 
   .categorie-box {
-    background-image: url(/dine-restaurant/img/left-container-g-bg.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    display: flex;
-    gap: 125px;
-    margin-bottom: 120px;
-    padding-inline: 160px;
-  }
-
-  .mobil {
-    display: none;
-  }
-
-  .desktop {
-    width: 540px;
-    display: block;
-  }
-
-  .categori-text {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 445px;
-  }
-
-  .categori-text h2 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-    text-align: left;
-    margin-bottom: 27px;
-  }
-
-  .categori-text p {
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-  }
-
-  .path {
-    margin: 0;
-    margin-bottom: 55px;
-  }
-
-  .row-reverse {
-    flex-direction: row-reverse;
-  }
-
-  .row-reverse {
-    background-image: url(/dine-restaurant/img/right-container-g-bg.png);
-    background-position: right 0 bottom 115px;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .ggorsel-show {
-    display: block;
-    position: absolute;
-    right: -100px;
-    bottom: 400px;
-  }
-
-  /* kategori end  */
-
-  /* menü start  */
-
-  .menu {
-    width: 100%;
-    position: relative;
-    bottom: 120px;
-    padding-top: 170px;
-  }
-  .menu-content {
-    display: flex;
-    flex-direction: row;
-    gap: 125px;
-    margin: 0 auto;
-  }
-
-  .menu-text {
-    width: 445px;
-  }
-
-  .menu-text h2 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-    text-align: left;
-  }
-
-  .menu-text p {
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-  }
-
-  .menu-box {
-    display: flex;
-    gap: 30px;
-    padding-bottom: 24px;
-  }
-
-  .menu-box-img img {
-    width: 128px;
-  }
-
-  .menu-box-text {
-    width: 350px;
-  }
-
-  .menu-box-text h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.25px;
-    text-align: left;
-  }
-
-  .menu-box-text p {
-    font-family: "League Spartan", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-  }
-
-  /* menü end  */
-
-  /* reservation start  */
-  .reservation {
-    background-image: url(/dine-restaurant/img/reservation-tablet.jpg);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 88px 175px;
-    display: flex;
-    flex-direction: row;
-    gap: 250px;
-    margin-top: -122px;
-    align-items: center;
-  }
-
-  .reservation h2 {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-    margin-bottom: 24px;
-  }
-
-  .reservation a {
-    font-family: "League Spartan", sans-serif;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 2.5px;
-    width: 245px;
-  }
-
-  .reservation a:hover {
-    background-color: #fff;
-    color: #111111;
-  }
-
-  /* reservation end  */
-
-  /* footer kısmı start  */
-  .footer-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 130px;
-    padding-inline: 165px;
-  }
-
-  /* .footer-logo {
-    grid-area: footerlogo;
-  }
-
-  .footer-location {
-    grid-area: footerlocation;
-    text-align: left;
-  }
-
-  .footer-open-times {
-    grid-area: footeropentimes;
-  } */
-
-  .footer p {
-    text-align: left;
-  }
-
-  /* footer kısmı end  */
-}
-
-
-/* DESKTOP KISMI START  */
-
-@media (width > 1024px) {
-  .container {
-    width: 100%;
-  }
-  
-  /* hero start  */
-
-  .hero {
-    background-image: url(/dine-restaurant/img/hero-bg-desktop.png);
-    background-repeat: no-repeat;
-    padding: 65px 768px 198px 165px;
-    align-items: start;
-    padding-bottom: 0;
-    background-position: right 0 top 0;
-  }
-  .hero img {
-    margin-bottom: 153px;
-  }
-
-  .hero h1 {
-    font-size: 80px;
-    font-weight: 300;
-    line-height: 80px;
-    letter-spacing: -1px;
-    text-align: left;
-  }
-
-  .hero p {
-    font-family: "League Spartan", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-  }
-
-  .hero a:hover {
-    background-color: #fff;
-    color: #111111;
-  }
-
-  .bg-img {
-    display: none;
-  }
-
-  /* hero end  */
-
-  /* kategori start  */
-
-  .categorie-box {
-    background-image: url(/dine-restaurant/img/left-container-g-bg.png);
+    background-image: url(/dine-restaurant/assets/img/left-container-g-bg.png);
     background-position: left;
     background-repeat: no-repeat;
     display: flex;
@@ -996,7 +743,260 @@ h4 {
 
   /* reservation start  */
   .reservation {
-    background-image: url(/dine-restaurant/img/reservation-tablet.jpg);
+    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 88px 175px;
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: -122px;
+    align-items: center;
+  }
+
+  .reservation h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+  }
+
+  .reservation a {
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+    width: 245px;
+  }
+
+  .reservation a:hover {
+    background-color: #fff;
+    color: #111111;
+  }
+
+  /* reservation end  */
+
+  /* footer kısmı start  */
+  .footer-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 130px;
+    padding-inline: 165px;
+  }
+
+  /* .footer-logo {
+    grid-area: footerlogo;
+  }
+
+  .footer-location {
+    grid-area: footerlocation;
+    text-align: left;
+  }
+
+  .footer-open-times {
+    grid-area: footeropentimes;
+  } */
+
+  .footer p {
+    text-align: left;
+  }
+
+  /* footer kısmı end  */
+}
+
+
+/* DESKTOP KISMI START  */
+
+@media (width > 1024px) {
+  .container {
+    width: 100%;
+  }
+  
+  /* hero start  */
+
+  .hero {
+    background-image: url(/dine-restaurant/assets/img/hero-bg-desktop.png);
+    background-repeat: no-repeat;
+    padding: 65px 768px 198px 165px;
+    align-items: start;
+    padding-bottom: 0;
+    background-position: right 0 top 0;
+  }
+  .hero img {
+    margin-bottom: 153px;
+  }
+
+  .hero h1 {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 80px;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+
+  .hero p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .hero a:hover {
+    background-color: #fff;
+    color: #111111;
+  }
+
+  .bg-img {
+    display: none;
+  }
+
+  /* hero end  */
+
+  /* kategori start  */
+
+  .categorie-box {
+    background-image: url(/dine-restaurant/assets/img/left-container-g-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 125px;
+    margin-bottom: 120px;
+    padding-inline: 160px;
+  }
+
+  .mobil {
+    display: none;
+  }
+
+  .desktop {
+    width: 540px;
+    display: block;
+  }
+
+  .categori-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 445px;
+  }
+
+  .categori-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 27px;
+  }
+
+  .categori-text p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .path {
+    margin: 0;
+    margin-bottom: 55px;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .row-reverse {
+    background-image: url(/dine-restaurant/assets/img/right-container-g-bg.png);
+    background-position: right 0 bottom 115px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .ggorsel-show {
+    display: block;
+    position: absolute;
+    right: -100px;
+    bottom: 400px;
+  }
+
+  /* kategori end  */
+
+  /* menü start  */
+
+  .menu {
+    width: 100%;
+    position: relative;
+    bottom: 120px;
+    padding-top: 170px;
+  }
+  .menu-content {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    margin: 0 auto;
+  }
+
+  .menu-text {
+    width: 445px;
+  }
+
+  .menu-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+
+  .menu-text p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .menu-box {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 24px;
+  }
+
+  .menu-box-img img {
+    width: 128px;
+  }
+
+  .menu-box-text {
+    width: 350px;
+  }
+
+  .menu-box-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+  }
+
+  .menu-box-text p {
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  /* menü end  */
+
+  /* reservation start  */
+  .reservation {
+    background-image: url(/dine-restaurant/assets/img/reservation-tablet.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
