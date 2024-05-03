@@ -229,6 +229,7 @@ body {
 .projeler-box {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 
 .projeler-box a {
