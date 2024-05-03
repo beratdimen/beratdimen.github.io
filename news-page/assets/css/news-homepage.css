@@ -29,6 +29,10 @@
   list-style: none;
 }
 
+.menu-icon {
+  display: none;
+}
+
 .nav a {
   text-decoration: none;
   color: #5e607a;
