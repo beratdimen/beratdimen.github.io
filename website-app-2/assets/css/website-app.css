@@ -1,0 +1,3235 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* berat start  */
+.berat-container {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+}
+
+/* Berat header start  */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6px;
+  padding-bottom: 32px;
+  padding-top: 16px;
+  background-color: #f8f9fb;
+}
+
+.nav {
+  display: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #272d37;
+}
+
+.btn {
+  display: none;
+}
+
+/* .ham-nav {
+  display: none;
+}
+
+.hamburger-menu:hover .ham-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.hamburger-menu {
+  width: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+}
+
+
+.ham-nav a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.bar {
+  width: 25px;
+  height: 4px;
+  background-color: #333;
+  margin: 4px auto;
+}
+
+.ham-nav li {
+  list-style: none;
+} */
+/* header end  */
+
+/* Berat hero start  */
+
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #f8f9fb;
+  padding-bottom: 40px;
+}
+
+.hero-text {
+  padding-inline: 16px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 30px;
+}
+
+.mail input {
+  padding: 12px 16px;
+  width: 343px;
+  border-radius: 8px;
+  border: none;
+}
+
+input[type="checkbox"] {
+  border-radius: 15px;
+}
+
+.mail a {
+  background-color: #437ef7;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 145px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.hero-check {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hesap {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5f6d7e;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-inline: 20px;
+  gap: 6px;
+  margin-block: 20px;
+  z-index: 1;
+  width: 300px;
+}
+
+.hero-content-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  width: 150px;
+  padding-block: 25px;
+  box-shadow: 0px 0.61px 1.22px 0px #1018280a;
+}
+
+.line-bg {
+  position: relative;
+  left: 290px;
+  bottom: 32px;
+}
+
+.hero-content-box h4 {
+  font-size: 15.92px;
+  font-weight: 700;
+  line-height: 19.93px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.hero-content-box p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.061px;
+  text-align: center;
+  color: #5f6d7e;
+}
+
+.hero-content-box img {
+  width: 32px;
+  margin-bottom: 14px;
+}
+
+.mid-logo {
+  position: absolute;
+  top: 230px;
+  left: 155px;
+}
+
+.circle-bg img {
+  position: absolute;
+  bottom: 520px;
+}
+
+/* Berat hero end  */
+
+/* Berat feature start  */
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.feature-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.features p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+/* Berat feature end  */
+
+/*Sema Website-App Product/MOBİL baslangici */
+.products {
+  padding: 32px 16px;
+}
+.products h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.products h6 {
+  color: #5f6d7e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.product-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.product-text p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #5f6d7e;
+}
+
+.product-text h5 {
+  display: none;
+}
+
+.product-img {
+  width: 343px;
+}
+
+.product-text .btn {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  background-color: #437ef7;
+  color: #fff;
+  padding-block: 12px;
+  padding-inline: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.product-text a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+/* Sema Website-App Product/MOBİL bitisi */
+
+/* melek customers start  */
+.name-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+}
+
+.name-title h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #b1ccfb;
+}
+
+.customers-comments p {
+  color: #fff;
+}
+
+.customers {
+  width: 375px;
+  padding: 32px 16px;
+  background-color: #2b63d9;
+}
+
+.customers-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #b1ccfb;
+}
+
+.customers-header h1 {
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.customers-comments-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.customers-comments {
+  background-color: #3971e7;
+  padding: 16px;
+  gap: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-title {
+  text-align: left;
+}
+
+.profile {
+  display: contents;
+}
+
+.read-more {
+  width: 78px;
+  display: flex;
+}
+
+.read-more a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #fff;
+}
+
+.view-more {
+  margin: auto;
+  padding-inline: 12px;
+  padding-block: 25px;
+  background-color: #437ef7;
+  border-radius: 10px;
+  width: 128px;
+}
+
+.view-more a {
+  text-decoration: none;
+  color: #fff;
+  align-items: center;
+}
+
+/* melek customers end  */
+
+/* Berat latest blog start  */
+
+.latest-blog {
+  margin-top: 40px;
+  padding-inline: 16px;
+}
+
+.latets-blog-header {
+  margin-bottom: 24px;
+  margin-top: 64px;
+}
+
+.latets-blog-header {
+  text-align: center;
+}
+
+.latets-blog-product h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.latets-blog-product img {
+  margin-bottom: 24px;
+  width: 343px;
+}
+
+.latets-blog-product p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #5f6d7e;
+}
+
+time {
+  color: #5f6d7e;
+}
+
+.latets-blog-product-box {
+  margin-bottom: 32px;
+}
+
+.blog-box {
+  margin-bottom: 32px;
+}
+
+/* Berat latest blog end  */
+
+/* Sema Website-App contact/MOBİL baslangici */
+
+.desktop-contact {
+  display: none;
+}
+
+.tablet-contact {
+  display: none;
+}
+
+.mobile-contact {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact {
+  padding-inline: 16px;
+}
+
+.contact h6 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #437ef7;
+}
+
+.contact h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.mail {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 30px;
+}
+
+.mail input {
+  padding: 12px 16px;
+  width: 343px;
+  border-radius: 8px;
+  border: none;
+}
+.mail a {
+  background-color: #437ef7;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 145px;
+  text-align: center;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.contact-checkbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-bottom: 32px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+/* Sema Website-App contact/MOBİL bitisi */
+/* Sema Website-App Footer/MOBİL baslangici */
+
+.footer-container {
+  background-color: #151b28;
+  color: #a5acba;
+}
+
+.footer {
+  margin-inline: 16px;
+  margin-bottom: 24px;
+  padding-top: 32px;
+  padding-inline: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 24px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #a5acba;
+}
+
+.social-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 64px;
+}
+
+.footer-container hr {
+  margin-bottom: 32px;
+  color: #2e3545;
+  opacity: 50%;
+}
+
+.footer-text :nth-child(2) {
+  margin-inline: 36px;
+}
+
+.footer-text-h6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 16px;
+  gap: 86px;
+}
+
+/* Sema Website-App Footer/MOBİL bitisi */
+
+/* melek css start  */
+
+.about-brands-container {
+  display: none;
+}
+
+.brands-container {
+  display: none;
+}
+
+/* melek css end  */
+/*! ABOUT CSS start  */
+
+/* Berat header start  */
+
+.header {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 32px;
+}
+/* Berat header end  */
+
+/* Berat about hero start  */
+
+.about-hero {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: #f8f9fb;
+  padding-bottom: 40px;
+  margin-bottom: 32px;
+}
+
+.about-hero-text {
+  width: 343px;
+}
+
+.about-hero p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #437ef7;
+  margin-bottom: 32px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+
+.about-hero h6 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+/* Berat about hero end  */
+
+/* Berat about features start  */
+.about-features {
+  font-family: "Inter", sans-serif;
+}
+
+.about-feature-header h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.about-feature-header p {
+  display: none;
+}
+
+.about-feature-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  margin-inline: 18px;
+}
+
+.about-feature-content-box:last-child {
+  margin-bottom: 40px;
+}
+
+.about-feature-content-box img {
+  margin-bottom: 32px;
+}
+
+.about-feature-content-box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.about-feature-content-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #5f6d7e;
+}
+
+.information {
+  display: flex;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.information a {
+  text-decoration: none;
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+.about-feature-content-right {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  margin-inline: 18px;
+}
+
+/* Berat about features end  */
+
+/* Sema !about PRODUCT/MOBİLE BASLANGİCİ */
+
+.about-product-box {
+  margin-inline: 16px;
+}
+
+.about-product-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.about-product-text h5 {
+  display: none;
+}
+
+.about-product-img {
+  margin: 0 auto;
+}
+
+.about-right-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #5f6d7e;
+}
+
+.about-btn {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  background-color: #437ef7;
+  color: #fff;
+  padding-block: 12px;
+  padding-inline: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.about-btn a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+/* Sema about PRODUCT/MOBİLE Bitisi */
+
+/* melek team :start  */
+.team-part {
+  padding-inline: 32px;
+}
+
+.team-profile {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.team-text h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.team-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.team-profile h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.team-profile p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.team-profile img {
+  align-items: center;
+}
+
+.team-part-logo {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+/* melek team end  */
+
+/*! sema about  SSS/MOBİL   baslangici */
+
+.sss-container {
+  text-align: center;
+}
+.sss-container h5 {
+  margin-bottom: 32px;
+  color: #5f6d7e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+}
+.sss-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.down {
+  display: none;
+}
+.sss-box {
+  border: 1px solid #eaebf0;
+  border-radius: 8px;
+  margin-inline: 16px;
+  margin-bottom: 40px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #437ef7;
+}
+summary {
+  padding: 0 32px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 28px;
+  padding-left: 32px;
+  color: #272d37;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+
+.sss-box summary::-webkit-details-marker {
+  display: none;
+}
+
+/*! sema about  SSS/MOBİL   bitisi */
+
+/* melek about brand start  */
+.about-brands-container {
+  display: block;
+  align-items: center;
+  padding: 32px 16px;
+  background-color: #2b63d9;
+  margin-bottom: 64px;
+}
+
+.about-brands-header {
+  width: 375px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+  margin-inline: auto;
+}
+
+.about-brands-img {
+  align-items: center;
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+#white-button {
+  background-color: #fff;
+  color: #437ef7;
+}
+
+.about-brands-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+}
+
+.about-brands-container p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.about-brands-container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+.about-brands-button a {
+  text-decoration: none;
+  width: 343px;
+  border-radius: 6px;
+  padding: 18px 12px;
+  background-color: #437ef7;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* melek about brand end  */
+
+/*! about footer/MOBİL  baslangici */
+
+.footer-about {
+  margin-inline: 16px;
+}
+
+.about-footer-logo {
+  margin-bottom: 22px;
+}
+
+.footer-about p {
+  color: #5f6d7e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.about-footer-social {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 24px;
+}
+.footer-about-nav {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 54px;
+  margin-bottom: 56px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.footer-about-nav a {
+  color: #272d37;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+
+.footer-about-nav ul a {
+  font-weight: 500;
+  color: #5f6d7e;
+  margin-bottom: 40px;
+}
+.footer-about-nav ul li {
+  padding-block: 8px;
+}
+.footer-about-icon {
+  margin-inline: 140px;
+  margin-bottom: 4px;
+}
+.footer-lookcout {
+  text-align: center;
+  color: #5f6d7e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+}
+
+/*! about footer/MOBİL  bitisi */
+
+/*! ABOUT CSS end  */
+
+/*! BLOG CSS START  */
+
+/* Berat Hero Start  */
+.blog-hero {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: #f8f9fb;
+  padding-bottom: 40px;
+  margin-bottom: 32px;
+}
+
+.blog-hero-text {
+  width: 343px;
+}
+
+.blog-hero p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #437ef7;
+  margin-bottom: 32px;
+}
+
+.blog-hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #272d37;
+  margin-bottom: 16px;
+}
+
+/* Berat Hero end  */
+/* Melek  Blog Page singup  start*/
+.signup-container{
+  width: 375px;
+  align-items: center;
+  padding-inline: 16px;
+  background-color: #2B63D9;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+
+.signup-header{
+  color: #fff;
+}
+.signup-header h1{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom:16px;
+}
+.signup-header p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color:#B1CCFB;
+margin-bottom: 24px;
+}
+
+
+.blog-brands-button a{
+  text-decoration: none;
+  color: #fff;
+  background: #437EF7;
+  border-radius: 6px;
+  padding: 13px 143px ;
+  width: 343px;
+  margin-bottom: 32px;
+
+}
+.blog-brands-button input{
+  border: none;
+  margin-bottom:16px ;
+  border-radius: 6px;
+  width: 343px;
+
+}
+#login-button{
+  display: block;
+}
+/* Melek  Blog Page singup end */
+
+/* BErat latest blog post start  */
+
+.latest-blog-posts {
+  margin-inline: 16px;
+}
+
+.latest-blog-posts-header h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.blog-posts-box-text {
+  margin-bottom: 32px;
+}
+
+.latest-blog-posts-box img {
+  margin-bottom: 16px;
+  width: 343px;
+}
+
+.latest-blog-posts-box p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: #5f6d7e;
+  margin-bottom: 8px;
+}
+
+.latest-blog-posts-box h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.blog-information {
+  display: flex;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.blog-information img {
+  width: 14px;
+}
+
+.blog-information a {
+  text-decoration: none;
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+}
+
+/* Berat latest blog post end  */
+
+/* Berat blog footer start  */
+
+.blog-footer-container {
+  background-color: #151b28;
+  padding: 32px 16px;
+}
+
+.blog-footer-container p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #a5acba;
+  padding-top: 24px;
+}
+
+.blog-footer-logo img {
+  margin-bottom: 24px;
+}
+
+.blog-footer-logo p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #a5acba;
+  margin-bottom: 16px;
+}
+
+.blog-mail {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  margin-bottom: 52px;
+}
+.blog-mail p {
+  padding-top: 0;
+}
+
+.blog-mail a {
+  padding: 8px 18px;
+  border-radius: 0 5px 5px 0;
+  text-decoration: none;
+  color: #fff;
+  background-color: #437ef7;
+}
+
+.blog-mail input {
+  padding: 12px 16px;
+  border-radius: 5px 0 0 5px;
+  background-color: #2c3444;
+  border: none;
+}
+
+.footer-box li {
+  list-style: none;
+}
+
+.footer-box ul {
+  padding: 0;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-box ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #a5acba;
+}
+
+.footer-box a {
+  text-decoration: none;
+}
+
+.footer-header {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #f9f9f9;
+}
+
+.footer-blog-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+  padding: 0;
+  gap: 64px;
+  border-bottom: 1px solid #2e3545;
+  padding-bottom: 24px;
+}
+
+/* Berat footer blog end  */
+
+/*! BLOG CSS END  */
+
+/* tablet kısmı start  */
+
+@media (width >= 768px) {
+  /* Berat header start  */
+
+  .header {
+    padding-bottom: 58px;
+    padding-inline: 16px;
+  }
+  /*Berat header end  */
+
+  /*Berat hero start  */
+
+  .mail {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin: 0;
+  }
+
+  .mail a {
+    padding: 12px 18px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .mail input {
+    padding: 12px 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .hesap {
+    display: none;
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: 48px;
+    gap: 10px;
+    margin-block: 20px;
+    width: 560px;
+    padding-inline: 104px;
+  }
+
+  .hero-content-box {
+    padding-block: 41px;
+    width: 243px;
+  }
+  .hero-content-box img {
+    width: 52px;
+    margin-bottom: 24px;
+  }
+
+  .hero-content-box h4 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.54px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .hero-content-box p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    text-align: center;
+  }
+
+  .mid-logo {
+    position: absolute;
+    top: 330px;
+    left: 330px;
+  }
+
+  .line-bg {
+    position: relative;
+    left: 465px;
+    bottom: 32px;
+  }
+
+  .circle-bg img {
+    position: absolute;
+    bottom: 525px;
+    left: 80px;
+  }
+
+  /* Berat hero end  */
+
+  /*Berat feature start  */
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 32px;
+    margin-top: 40px;
+  }
+
+  .feature-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Berat feature end  */
+
+  /*Sema  Website-App Product/TABLET Baslangici */
+
+  .products {
+    padding: 40px 32px;
+    margin-inline: 32px;
+  }
+
+  .products h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .products h6 {
+    color: #5f6d7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    /* margin-bottom: 40px; */
+  }
+
+  .product-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+  .product-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .product-img {
+    width: 704px;
+    margin-top: 40px;
+  }
+
+  .product-text .btn {
+    background-color: #437ef7;
+    color: #fff;
+    padding-block: 12px;
+    padding-inline: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+
+  /*Sema  Website-App Product/TABLET Bitisi */
+
+  /* melek start  */
+
+  .customers {
+    width: 768px;
+    padding: 32px 40px;
+  }
+
+  .customers-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .customers-header h1 {
+    margin-bottom: 16px;
+  }
+
+  .customers-comments-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .customers-comments {
+    width: 340px;
+    padding: 16px;
+    border-radius: 10px;
+  }
+
+  .customers-comments p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .user-profile img {
+    width: 40px;
+  }
+
+  .user-profile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .read-more {
+    width: 78px;
+    display: flex;
+  }
+
+  .read-more a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  /* melek end  */
+
+  /*Berat latest blog start  */
+
+  .blog-box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .latets-blog-product-box img {
+    width: 704px;
+  }
+
+  .blog-box img {
+    width: 188px;
+    height: 168px;
+    margin-bottom: 0;
+  }
+
+  .blog-box-text {
+    width: 492px;
+  }
+
+  /*Berat latest blog end  */
+
+  /*Sema   Website-App contact/TABLET Baslangici */
+
+  .desktop-contact {
+    display: none;
+  }
+
+  .mobile-contact {
+    display: none;
+  }
+
+  .tablet-contact {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact {
+    padding-inline: 16px;
+    margin-bottom: 40px;
+  }
+
+  .contact h6 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #437ef7;
+  }
+
+  .contact h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .contact .mail {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-inline: 121px;
+    margin-bottom: 32px;
+  }
+
+  .mail a {
+    padding: 12px 18px;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .mail input {
+    padding: 12px 16px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .contact-checkbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 32px;
+    margin-inline: 121px;
+  }
+
+  /* Sema  Website-App contact/TABLET Bitisi */
+
+  /*Sema Website-App  footer/TABLET baslangici */
+
+  .footer-container {
+    padding-inline: 32px;
+    padding-block: 40px;
+    background-color: #151b28;
+    color: #a5acba;
+    align-items: center;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-nav a {
+    text-decoration: none;
+    color: #a5acba;
+  }
+
+  .social-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-container hr {
+    margin-bottom: 32px;
+    color: #2e3545;
+    opacity: 50%;
+  }
+
+  /* sema Website-App  footer/TABLET bitisi */
+
+  /*! ABOUT CSS start  */
+
+  /* Berat header start  */
+
+  .header {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 32px;
+  }
+
+  /* Berat header end  */
+
+  /* Berat about hero start  */
+
+  .about-hero {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #f8f9fb;
+    padding-bottom: 88px;
+    margin-bottom: 40px;
+    padding-inline: 48px;
+  }
+
+  .about-hero-text {
+    width: 672px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #437ef7;
+    margin-bottom: 0;
+  }
+
+  .about-hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #272d37;
+    margin-bottom: 24px;
+  }
+
+  .about-hero h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #5f6d7e;
+  }
+  /* Berat about hero end  */
+
+  /* Berat about features start  */
+
+  .about-features {
+    font-family: "Inter", sans-serif;
+  }
+
+  .about-feature-header h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .about-feature-header p {
+    display: none;
+  }
+
+  .about-feature-content-text {
+    display: flex;
+  }
+
+  .about-feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-inline: 18px;
+  }
+
+  .about-feature-content-box img {
+    margin-bottom: 32px;
+  }
+
+  .about-feature-content-box h5 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .about-feature-content-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    text-align: left;
+
+    color: #5f6d7e;
+  }
+
+  .information {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+  }
+
+  .information a {
+    text-decoration: none;
+    color: #437ef7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .about-feature-content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-inline: 18px;
+  }
+
+  /* Berat about features end  */
+
+  /* !about PRODUCT/TABLET BASLANGİCİ */
+  .about-product-box {
+    margin-inline: 32px;
+    margin-bottom: 40px;
+  }
+
+  .about-product-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .about-product-img {
+    width: 100%;
+  }
+
+  /* !about PRODUCT/TABLET BİTİSİ */
+
+  /* melek about team start  */
+  .team-part {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .team-profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .team-profile-alt {
+    width: 336px;
+  }
+
+  .team-text {
+    width: 704px;
+    text-align: center;
+  }
+
+  .team-profile p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .team-part-logo {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* melek about team end  */
+
+  /* !about sss/TABLET baslangici  */
+
+  .sss-container {
+    text-align: center;
+  }
+  .sss-container h5 {
+    margin-bottom: 64px;
+    color: #5f6d7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+  }
+  .sss-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .sss-box {
+    border: 1px solid #eaebf0;
+    border-radius: 8px;
+    margin-inline: 112px;
+    margin-bottom: 64px;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: #437ef7;
+  }
+  summary {
+    padding: 0 32px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 28px;
+    padding-left: 32px;
+    color: #272d37;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+  }
+
+  .sss-box summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .sss h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .sss h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: #5f6d7e;
+  }
+  /* ! about SSS/TABLET BİTİSİ */
+
+  /* melek about brands start  */
+
+  .about-brands-container {
+    flex-direction: row;
+    display: block;
+    align-items: center;
+    padding: 32px 40px;
+    background-color: #2b63d9;
+  }
+
+  .about-brands-header {
+    width: 704px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+  }
+
+  .about-brands-img {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  .about-brands-button {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  #white-button {
+    background-color: #fff;
+    color: #437ef7;
+  }
+
+  .about-brands-container p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .about-brands-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  .about-brands-button a {
+    text-decoration: none;
+    width: 91px;
+    border-radius: 6px;
+    padding: 18px 12px;
+    background-color: #437ef7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }
+  /* melek about brands end  */
+
+  /*! about  footer/TABLET baslangici */
+
+  /* .footer-about-nav {
+   display: flex;
+   flex-wrap: wrap;
+    }
+     */
+
+  .footer-about {
+    margin-inline: 32px;
+  }
+  .footer-about-text {
+    width: 247px;
+  }
+  .about-footer-logo {
+    margin-bottom: 22px;
+  }
+
+  .footer-about p {
+    margin-bottom: 24px;
+  }
+
+  .about-footer-social {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 24px;
+  }
+  .footer-about-nav {
+    display: grid;
+    justify-content: left;
+    gap: 143px;
+    margin-bottom: 80px;
+  }
+
+  .footer-about {
+    display: flex;
+    align-items: start;
+    gap: 143px;
+  }
+
+  .footer-lookcout {
+    text-align: center;
+  }
+
+  /*! ABOUT CSS end  */
+
+  /*! Blog CSS Start  */
+
+  /* Berat hero start  */
+
+  .blog-hero {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #f8f9fb;
+    padding-bottom: 88px;
+    margin-bottom: 40px;
+    padding-inline: 48px;
+  }
+
+  .blog-hero-text {
+    width: 672px;
+  }
+
+  .blog-hero p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #437ef7;
+    margin-bottom: 0;
+  }
+
+  .blog-hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #272d37;
+    margin-bottom: 24px;
+  }
+
+  /* Berat hero end  */
+  /* Melek blog kısmı start */
+  
+  .signup-container{
+    width: 768px;
+    align-items: center;
+    padding: 40px 32px;
+    background-color: #2B63D9;
+  }
+
+  .signup-header{
+    color: #fff;
+  }
+
+  .signup-header h1{
+   font-size: 32px;
+   font-weight: 600;
+   line-height: 42px;
+   margin-bottom:16px;
+  }
+
+  .signup-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#B1CCFB;
+    margin-bottom: 24px;
+  }
+
+  .blog-brands-button{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .blog-brands-button a {
+    text-decoration: none;
+    color: #fff;
+    background: #437EF7;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 18px;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+  }
+  .blog-brands-button input{
+    border: none;
+    width: 476px;
+    border-radius: 5px 0 0 5px;
+    padding: 12px 16px;
+    margin: 0;
+  }
+  #login-button{
+    display: block;
+  }
+
+  /* Melek blog kısmı end */
+  
+
+  /* Berat latest blog post start  */
+
+  .latest-blog-posts {
+    margin-inline: 16px;
+  }
+
+  .latest-blog-posts-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .blog-posts-box-text {
+    margin-bottom: 32px;
+  }
+
+  .latest-blog-posts-box img {
+    margin-bottom: 16px;
+    width: 336px;
+    height: 250px;
+  }
+
+  .latest-blog-posts-box p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+    margin-bottom: 8px;
+  }
+
+  .latest-blog-posts-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .blog-information {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+  }
+
+  .blog-information img {
+    width: 14px;
+    height: 12px;
+  }
+
+  .blog-information a {
+    text-decoration: none;
+    color: #437ef7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .latest-blog-posts-boxs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .latest-blog-posts-box:nth-child(5) {
+    display: none;
+  }
+
+  .latest-blog-posts-box:nth-child(6) {
+    display: none;
+  }
+
+  /* Berat latest blog post end  */
+
+  /* Berat footer blog start  */
+
+  .blog-mail input {
+    width: 462px;
+  }
+
+  .blog-footer-logo img {
+    margin-bottom: 16px;
+  }
+
+  .blog-footer-logo p {
+    margin-bottom: 16px;
+    padding: 0;
+  }
+
+  .footer-blog-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding: 0;
+    gap: 64px;
+    border-bottom: 1px solid #2e3545;
+    padding-bottom: 24px;
+  }
+
+  /* Berat footer blog end  */
+
+  /*! Blog CSS End  */
+}
+
+/* tablet kısmı end  */
+
+/* desktop start  */
+
+@media (width >= 1024px) {
+  /* Berat header start  */
+
+  .header {
+    padding-bottom: 58px;
+    padding-inline: 112px;
+    width: 1280px;
+    align-items: center;
+  }
+
+  .div {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: #437ef7;
+    padding: 12px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    border-radius: 6px;
+  }
+
+  .login {
+    background-color: #437ef7;
+    color: #fff !important;
+  }
+
+  .nav {
+    display: flex;
+    gap: 32px;
+  }
+
+  .nav li {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  /* Berat header end  */
+
+  /* Berat hero start  */
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1280px;
+    padding-inline: 112px;
+  }
+
+  .hero-text {
+    width: 520px;
+  }
+
+  .hero-content {
+    width: 560px;
+  }
+
+  .circle-bg img {
+    position: absolute;
+    bottom: 510px;
+    left: 680px;
+  }
+
+  .mid-logo {
+    left: 960px;
+    top: 370px;
+  }
+
+  /* Berat hero end  */
+
+  /* Berat feature start  */
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 88px;
+    margin-top: 40px;
+    padding-inline: 80px;
+  }
+
+  .feature-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Berat feature end  */
+  /* Sema Website-app Product/DESKTOP baslangici */
+  .products {
+    padding: 64px 80px;
+  }
+
+  .product-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+  }
+
+  .product-box-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+    margin-bottom: 64px;
+  }
+  .products h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .products h6 {
+    color: #5f6d7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  .product-text h5 {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #5f6d7e;
+  }
+
+  .product-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+  .product-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .product-img {
+    width: 560px;
+    margin-top: 40px;
+  }
+
+  .product-text .btn {
+    background-color: #437ef7;
+    color: #fff;
+    padding-block: 12px;
+    padding-inline: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
+  /* Sema  Website-app product/DESKTOP  bitisi */
+
+  /* melek start  */
+
+  .customers {
+    width: 1280px;
+  }
+
+  .customers-header {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-inline: 240px;
+  }
+
+  .customers-header h1 {
+    margin-bottom: 12px;
+  }
+
+  .customers-comments-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .customers-comments {
+    width: 280px;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+
+  .customers-comments p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .user-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  .profile {
+    display: contents;
+  }
+
+  .read-more {
+    width: 78px;
+    display: flex;
+  }
+
+  .read-more a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  /* melek end  */
+
+  /* Berat  latest-blog start  */
+  .latest-blog {
+    margin: 0 auto;
+  }
+
+  .latets-blog-product {
+    display: flex;
+    gap: 40px;
+  }
+
+  .latets-blog-product-box {
+    width: 588px;
+  }
+
+  .latets-blog-product-box img {
+    width: 588px;
+  }
+
+  .latets-blog-header {
+    margin-bottom: 64px;
+  }
+
+  /* Berat latest-blog end  */
+
+  /* melek start  */
+
+  .brands-container {
+    align-items: center;
+    background-color: #fff;
+    color: black;
+  }
+
+  .brands-container {
+    display: block;
+  }
+
+  .brands-header {
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .brands-img {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 64px;
+  }
+
+  /* melek end  */
+
+  /*Sema  website-app contact/DESKTOP baslangici */
+  .contact {
+    margin-inline: 264px;
+  }
+
+  .mail {
+    width: 512px;
+  }
+  /*Sema  Website-app contact/DESKTOP bitisi */
+  /*Sema -Website-app Footer/DESKTOP baslangici */
+
+  .footer-container {
+    padding-inline: 112px;
+    padding-block: 64px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+  }
+
+  .footer-nav a {
+    text-decoration: none;
+    color: #a5acba;
+  }
+
+  .social-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-container hr {
+    margin-bottom: 32px;
+    color: #2e3545;
+    opacity: 50%;
+  }
+
+  /*Sema Website-app footer/DESKTOP  bitis */
+
+  /*! ABOUT CSS start  */
+
+  /* Berat header start  */
+
+  .header {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 80px;
+  }
+
+  /* Berat header end  */
+
+  /* Berat about hero start  */
+
+  .about-hero {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #f8f9fb;
+    padding-bottom: 94px;
+    margin-bottom: 64px;
+    padding-inline: 320px;
+  }
+
+  .about-hero-text {
+    width: 640px;
+  }
+
+  .about-hero p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #437ef7;
+    margin-bottom: 16px;
+  }
+
+  .about-hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #272d37;
+    margin-bottom: 24px;
+  }
+
+  .about-hero h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #5f6d7e;
+  }
+  /* Berat  about hero end  */
+
+  /* Berat about features start  */
+
+  .about-features {
+    font-family: "Inter", sans-serif;
+  }
+
+  .about-feature-header h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .about-feature-header p {
+    display: none;
+  }
+
+  .about-feature-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-feature-content-box img {
+    margin-bottom: 32px;
+  }
+
+  .about-feature-content-box h5 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .about-feature-content-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0px;
+    text-align: left;
+    color: #5f6d7e;
+  }
+
+  .about-feature-content-right {
+    display: none;
+  }
+
+  /* Berat about features end  */
+
+  /* !about PRODUCT/DESKTOP BASLANGİCİ */
+  .about-product-box {
+    margin-inline: 112px;
+    display: flex;
+    gap: 124px;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+
+  .about-product-text h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .about-product-text h5 {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+    margin-bottom: 24px;
+  }
+
+  /* !about PRODUCT/DESKTOP BİTİSİ */
+
+  /* melek about start   */
+
+  .team-part {
+    text-align: center;
+    width: 1280;
+  }
+
+  .team-profile {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .team-text {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .team-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .team-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .team-profile h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .team-profile p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+
+  .team-profile img {
+    align-items: center;
+  }
+
+  .team-part-logo {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  /* melek about  end  */
+
+  /*! about-sıkça sorulan sorular baslangici-desktop*/
+
+  .sss-container {
+    text-align: center;
+  }
+  .sss-container h5 {
+    margin-bottom: 64px;
+    color: #5f6d7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+  }
+  .sss-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .down {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+  }
+  .sss-box {
+    border: 1px solid #eaebf0;
+    border-radius: 8px;
+    margin-inline: 112px;
+    margin-bottom: 64px;
+  }
+
+  .btn a {
+    text-decoration: none;
+    color: #437ef7;
+  }
+  summary {
+    padding: 0 32px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 28px;
+    padding-left: 32px;
+    color: #272d37;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+  }
+
+  .sss h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  .sss h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: #5f6d7e;
+  }
+  /*! about-sıkça sorulan sorular/ DESKTOP  bitisi */
+
+  /* melek about brandsstart  */
+
+  .about-brands-container {
+    width: 1110px;
+    align-items: center;
+    background-color: #2b63d9;
+    padding: 80px 64px;
+  }
+
+  .about-brands-header {
+    color: #fff;
+    margin-bottom: 32px;
+    margin-inline: auto;
+  }
+
+  .about-brands-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 64px;
+    gap: 64px;
+    margin-bottom: 64px;
+  }
+
+  .about-brands-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #fff;
+  }
+
+  .about-brands-container p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .about-brands-container h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  .about-brands-button a {
+    text-decoration: none;
+    width: 91px;
+    border-radius: 6px;
+    padding: 18px 12px;
+    background-color: #437ef7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }
+  /* melek about brand end  */
+
+  /* Sema about  footer start */
+
+  .footer-about-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 140px;
+    margin-bottom: 32px;
+  }
+
+  .about-footer-logo {
+    margin-bottom: 22px;
+  }
+
+  .footer-about {
+    /* margin-inline: 112px; */
+    margin-bottom: 64px;
+  }
+
+  .footer-about p {
+    color: #5f6d7e;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .about-footer-social {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    margin-bottom: 24px;
+  }
+
+  .footer-about-nav li {
+    flex-grow: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  .footer-about-nav a {
+    color: #272d37;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+  }
+
+  .footer-about-nav ul a {
+    font-weight: 400;
+    color: #5f6d7e;
+  }
+  .footer-about-nav ul li {
+    padding-block: 8px;
+  }
+
+  .about-footer-logo {
+    text-align: center;
+  }
+  /*Sema about footer bitisi */
+
+  /*! ABOUT CSS end  */
+
+  /*! Blog CSS Start  */
+
+  /* Berat blog hero start  */
+
+  .blog-hero {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #f8f9fb;
+    padding-bottom: 94px;
+    margin-bottom: 64px;
+    padding-inline: 320px;
+  }
+
+  .blog-hero-text {
+    width: 640px;
+  }
+
+  .blog-hero p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #437ef7;
+    margin-bottom: 16px;
+  }
+
+  .blog-hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #272d37;
+    margin-bottom: 24px;
+  }
+
+  /* Berat Blog blog hero end  */
+
+   /* Melek  blog kısmı start  */
+   .signup-container{
+    width: 1280px;
+    align-items: center;
+    padding: 80px 64px;
+    background-color: #2B63D9;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .signup-header h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom:24px;
+  }
+  .signup-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;  
+    color:#B1CCFB;
+    margin-bottom: 24px;
+  }
+  .blog-brands-button{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+  .blog-brands-button a{
+    text-decoration: none;
+    color: #fff;
+    background: #437EF7;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 18px;
+    width: 100px;
+    margin: 0;
+  }
+  .blog-brands-button input{
+    border: none;
+    width: 352px;
+    border-radius: 6px 0 0 6px;
+    padding: 12px 16px;
+    margin: 0;
+  }
+
+  .about-brands-container {
+    width: 1280px;
+  }
+
+  #login-button{
+    display: none;
+  }
+  
+   /* Melek  blog kısmı end  */
+
+  /* Berat latest blog post start  */
+
+  .latest-blog-posts {
+    margin-inline: 16px;
+  }
+
+  .latest-blog-posts-header h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .blog-posts-box-text {
+    margin-bottom: 32px;
+  }
+
+  .latest-blog-posts-box img {
+    margin-bottom: 16px;
+    width: 384px;
+    height: 250px;
+  }
+
+  .latest-blog-posts-box p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: #5f6d7e;
+    margin-bottom: 8px;
+  }
+
+  .latest-blog-posts-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .blog-information {
+    display: flex;
+    gap: 6px;
+    margin-top: 16px;
+  }
+
+  .blog-information img {
+    width: 14px;
+    height: 12px;
+  }
+
+  .blog-information a {
+    text-decoration: none;
+    color: #437ef7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+  }
+
+  .latest-blog-posts-boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-inline: 32px;
+  }
+
+  .latest-blog-posts-box:nth-child(5) {
+    display: block;
+  }
+
+  .latest-blog-posts-box:nth-child(6) {
+    display: block;
+  }
+
+  /* Berat latest blog post end  */
+
+  /* Berat blog footer start  */
+
+  .footer-genel {
+    display: flex;
+    gap: 180px;
+    border-bottom: 1px solid #2e3545;
+    padding-bottom: 64px;
+    margin-inline: 112px;
+  }
+
+  .logo-submit {
+    width: 310px;
+  }
+
+  .footer-blog-nav {
+    gap: 180px;
+  }
+
+  .blog-mail input {
+    width: 190px;
+  }
+
+  .footer-blog-nav {
+    border-bottom: none;
+  }
+
+  /* Berat blog footer end  */
+
+  /*! Blog CSS end  */
+}
+
+/* desktop end  */
+
+/* berat end  */
