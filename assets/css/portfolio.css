@@ -190,11 +190,11 @@ body {
   align-items: center;
   gap: 25px;
   cursor: pointer;
-  transition: transform 1s ease;
+  transition: transform 1.2s ease;
 }
 
 .yetenekler-box:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .yetenekler-box h4 {
