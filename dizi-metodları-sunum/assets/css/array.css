@@ -93,3 +93,9 @@ button:hover {
   font-weight: 600;
   margin-bottom: 24px;
 }
+
+
+#editor {
+  position: sticky;
+  top: 0;
+}
