@@ -282,7 +282,7 @@ body {
 
 /* mobil start  */
 
-@media (width <= 768px) {
+@media (width <= 425px) {
   /* header start  */
 
   .baslik {
