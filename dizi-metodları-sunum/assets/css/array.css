@@ -48,6 +48,10 @@ h6 {
   justify-content: center;
 }
 
+.header img {
+  width: 120px;
+}
+
 .main {
   display: flex;
   gap: 32px;
