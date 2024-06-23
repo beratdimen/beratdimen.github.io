@@ -1,10 +1,10 @@
 document.querySelector("#run").addEventListener("click", function () {
   let code = document.querySelector("#code").value;
   let func = new Function(code);
-  if(func()) {
+  if (func()) {
     document.querySelector("#output").innerText = func();
   } else {
-    document.querySelector("#output").innerText = "Bir Hata Oluştu "  ;
+    document.querySelector("#output").innerText = "Bir Hata Oluştu ";
   }
 });
 
@@ -34,7 +34,7 @@ let diziMetotlari = [
     name: "forEach",
     description: "Dizinin her bir elemanı için belirtilen fonksiyonu çağırır.",
     example:
-      "let dizi = [1, 2, 3, 4, 5]; \nlet yeniDizi = dizi.map((x) => \n{console.log(x); return x; });\nreturn yeniDizi; ",
+      "let dizi = [1, 2, 3, 4, 5]; \nlet yeniDizi = [];  \ndizi.forEach((x) => {yeniDizi.push(x);});\nconsole.log(yeniDizi); \nreturn yeniDizi; ",
   },
   {
     name: "find",
