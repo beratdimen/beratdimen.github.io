@@ -1,0 +1,48 @@
+.sliderContainer {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+
+  .sliderGeneral {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin: 0 auto;
+    width: 800px;
+    padding-block: 24px;
+
+    img {
+      border-radius: 16px;
+    }
+
+    .sliderContent {
+      display: grid;
+      gap: 16px;
+
+      .sliderHeader {
+        h3 {
+          font-size: 24px;
+          color: rgb(4, 0, 255);
+        }
+        h2 {
+          font-size: 32px;
+        }
+      }
+      p {
+        opacity: 0.6;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        background-color: rgb(11, 7, 238);
+        width: fit-content;
+        padding: 4px 8px;
+        border-radius: 8px;
+        color: white;
+      }
+
+      a:hover {
+        background-color: rgb(85, 83, 226);
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+}
