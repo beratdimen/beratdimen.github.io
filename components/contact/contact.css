@@ -1,13 +1,61 @@
 .contactContainer {
-  width: 600px;
-  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 24px;
+
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+    width: 500px;
+
+    h1 {
+      margin-bottom: 0;
+    }
+
+    .contactMeFooter {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      p,
+      a {
+        opacity: 0.6;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+      }
+      .contactMeFooterDetail {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #0d0d0d;
+    padding: 32px 16px;
+    width: 600px;
+    border-radius: 16px;
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+  }
 
   form {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     padding: 16px;
 
     p {
@@ -16,13 +64,16 @@
     }
 
     input {
+      background-color: transparent;
       border: none;
-      border-bottom: 1px solid lightgray;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.459);
       padding: 8px 16px;
       width: 100%;
+      color: white;
     }
 
     textarea {
+      background-color: transparent;
       border: none;
       border-bottom: 1px solid lightgray;
       padding: 8px 16px;
@@ -31,16 +82,10 @@
 
     button {
       border: none;
-      background-color: transparent;
-      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
       padding: 8px 16px;
       border-radius: 16px;
       cursor: pointer;
-    }
-
-    button:hover {
-      background-color: green;
-      color: white;
     }
   }
 }

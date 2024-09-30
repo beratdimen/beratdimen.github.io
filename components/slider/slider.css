@@ -21,28 +21,29 @@
       .sliderHeader {
         h3 {
           font-size: 24px;
-          color: rgb(4, 0, 255);
+          color: #0d90e5;
         }
+
         h2 {
           font-size: 32px;
         }
       }
+
       p {
         opacity: 0.6;
       }
+
       a {
         text-decoration: none;
-        color: black;
-        background-color: rgb(11, 7, 238);
+        background: linear-gradient(90deg, #0d90e5, #55a3eb);
         width: fit-content;
-        padding: 4px 8px;
+        padding: 8px 16px;
         border-radius: 8px;
         color: white;
       }
 
       a:hover {
-        background-color: rgb(85, 83, 226);
-        color: rgb(0, 0, 0);
+        background: linear-gradient(90deg, rgb(85, 83, 226), rgb(60, 60, 180));
       }
     }
   }

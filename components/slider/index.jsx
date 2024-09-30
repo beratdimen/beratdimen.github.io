@@ -13,10 +13,12 @@ export default function Slider() {
             <h2>Front-End Developer</h2>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            eveniet officia totam ullam qui velit aut doloremque odio
-            repudiandae, dicta error fugit asperiores, atque aliquam sint vel,
-            praesentium impedit nostrum?
+            Hello! I’m a Front End Developer with a passion for building
+            user-friendly web applications. I completed my training at Acunmedya
+            Academy and have worked on various projects using React, Next.js,
+            HTML, CSS, and JavaScript. I’m dedicated to creating responsive and
+            visually appealing websites. Let’s connect and bring your ideas to
+            life!
           </p>
           <Link href={"/"}>About Me</Link>
         </div>
