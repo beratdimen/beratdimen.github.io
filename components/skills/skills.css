@@ -10,13 +10,13 @@
   .skillsCard {
     display: grid;
     gap: 12px;
-    padding: 24px 16px;
+    padding: 36px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     border-radius: 16px;
 
     p {
-      opacity: 0.7;
+      opacity: 0.6;
     }
 
     .skillsHeader {

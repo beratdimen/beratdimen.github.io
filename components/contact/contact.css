@@ -1,0 +1,46 @@
+.contactContainer {
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+
+    p {
+      color: red;
+      font-weight: 600;
+    }
+
+    input {
+      border: none;
+      border-bottom: 1px solid lightgray;
+      padding: 8px 16px;
+      width: 100%;
+    }
+
+    textarea {
+      border: none;
+      border-bottom: 1px solid lightgray;
+      padding: 8px 16px;
+      width: 100%;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 8px 16px;
+      border-radius: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: green;
+      color: white;
+    }
+  }
+}

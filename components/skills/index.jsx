@@ -59,7 +59,7 @@ export default function Skills() {
       <h1>My Skills</h1>
       <div className="skillsContainer">
         {data.map((x) => (
-          <div className="skillsCard">
+          <div key={x.id} className="skillsCard">
             <div className="skillsHeader">
               {x.img}
               <h4>{x.title}</h4>

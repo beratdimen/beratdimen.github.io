@@ -7,7 +7,7 @@
     align-items: center;
     gap: 48px;
     margin: 0 auto;
-    width: fit-content;
+    width: 800px;
     padding-block: 24px;
 
     img {
@@ -52,6 +52,7 @@
   .sliderContainer {
     .sliderGeneral {
       flex-direction: column;
+      width: fit-content;
     }
   }
 }

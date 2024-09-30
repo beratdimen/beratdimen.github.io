@@ -36,7 +36,7 @@ export default function Experience() {
         </div>
         <div className="experienceCardContainer">
           {data.map((x) => (
-            <div className="experienceCard">
+            <div key={x.id} className="experienceCard">
               <h4>{x.number}</h4>
               <p>
                 {x.content} {x.work ? x.work : ""}

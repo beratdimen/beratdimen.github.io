@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import "@/components/projects/project.css";
-import { RightIcom } from "@/helpers/icons";
+import { GithubIcon, LiveIcon, RightIcom } from "@/helpers/icons";
 
 export default function Projects() {
   const data = [
@@ -9,25 +9,41 @@ export default function Projects() {
       id: 1,
       img: "/img/products.png",
       title: "Products",
-      link: "View Detail",
+      detail: "View Detail",
+      links: {
+        live: "https://products-next-eta.vercel.app/products",
+        github: "https://github.com/beratdimen/products-next",
+      },
     },
     {
       id: 2,
       img: "/img/users.png",
       title: "Users",
-      link: "View Detail",
+      detail: "View Detail",
+      links: {
+        live: "https://usersnext.netlify.app/users",
+        github: "https://github.com/beratdimen/users-next",
+      },
     },
     {
       id: 3,
       img: "/img/students-attedance.png",
       title: "Students Attedance",
-      link: "View Detail",
+      detail: "View Detail",
+      links: {
+        live: "https://studentsattendace.netlify.app/",
+        github: "https://github.com/beratdimen/students-attendace-next",
+      },
     },
     {
       id: 4,
       img: "/img/pomodoro.png",
       title: "Pomodoro",
-      link: "View Detail",
+      detail: "View Detail",
+      links: {
+        live: "https://pomodoro-beta-fawn.vercel.app/",
+        github: "https://github.com/beratdimen/pomodoro",
+      },
     },
   ];
 
@@ -37,11 +53,27 @@ export default function Projects() {
       <div className="projectsContainer">
         {data.map((x) => (
           <div key={x.id} className="projectCard">
-            <Image className="img" width={150} height={150} src={x.img} />
+            <Image
+              className="img"
+              width={250}
+              height={250}
+              src={x.img}
+              alt=""
+            />
             <h4>{x.title}</h4>
-            <Link href={"/"}>
-              {x.link} <RightIcom />
-            </Link>
+            <div className="links">
+              <Link href={""} target="blank">
+                {x.detail} <RightIcom />
+              </Link>
+              <div className="icons">
+                <Link href={`${x.links.live}`} target="blank">
+                  <LiveIcon />
+                </Link>
+                <Link href={`${x.links.github}`} target="blank">
+                  <GithubIcon />
+                </Link>
+              </div>
+            </div>
           </div>
         ))}
       </div>
