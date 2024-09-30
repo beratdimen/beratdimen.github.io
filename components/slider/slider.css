@@ -1,13 +1,13 @@
 .sliderContainer {
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   margin-bottom: 24px;
-  
+
   .sliderGeneral {
     display: flex;
     align-items: center;
     gap: 48px;
     margin: 0 auto;
-    width: 800px;
+    width: fit-content;
     padding-block: 24px;
 
     img {
@@ -44,6 +44,14 @@
         background-color: rgb(85, 83, 226);
         color: rgb(0, 0, 0);
       }
+    }
+  }
+}
+
+@media (width <=426px) {
+  .sliderContainer {
+    .sliderGeneral {
+      flex-direction: column;
     }
   }
 }

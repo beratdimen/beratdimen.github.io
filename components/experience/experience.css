@@ -43,3 +43,14 @@
     }
   }
 }
+
+@media (width <=426px) {
+  .experienceContainer {
+    display: flex;
+    flex-direction: column;
+
+    .experienceCardContainer {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

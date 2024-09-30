@@ -1,4 +1,5 @@
 import Experience from "@/components/experience";
+import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Slider from "@/components/slider";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Slider />
       <Skills />
       <Experience />
+      <Projects />
     </>
   );
 }

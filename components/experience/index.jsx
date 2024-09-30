@@ -27,20 +27,23 @@ const data = [
 
 export default function Experience() {
   return (
-    <div className="experienceContainer">
-      <div className="year">
-        <h2>08</h2>
-        <h4>Years Experience</h4>
-      </div>
-      <div className="experienceCardContainer">
-        {data.map((x) => (
-          <div className="experienceCard">
-            <h4>{x.number}</h4>
-            <p>
-              {x.content} {x.work ? x.work : ""}
-            </p>
-          </div>
-        ))}
+    <div>
+      <h1>My Experience</h1>
+      <div className="experienceContainer">
+        <div className="year">
+          <h2>08</h2>
+          <h4>Years Experience</h4>
+        </div>
+        <div className="experienceCardContainer">
+          {data.map((x) => (
+            <div className="experienceCard">
+              <h4>{x.number}</h4>
+              <p>
+                {x.content} {x.work ? x.work : ""}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
