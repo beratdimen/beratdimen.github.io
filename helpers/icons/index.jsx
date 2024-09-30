@@ -2,8 +2,8 @@ export function JavascriptIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 256 256"
     >
       <g fill="none">
@@ -21,8 +21,8 @@ export function NextjsIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 256 256"
     >
       <g fill="none">
@@ -40,8 +40,8 @@ export function HtmlIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 32 32"
     >
       <path
@@ -65,8 +65,8 @@ export function CssIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 32 32"
     >
       <path
@@ -98,8 +98,8 @@ export function ReactIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 256 228"
     >
       <path
@@ -114,8 +114,8 @@ export function FigmaIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="24px"
-      height="24px"
+      width="36px"
+      height="36px"
       viewBox="0 0 128 128"
     >
       <path
