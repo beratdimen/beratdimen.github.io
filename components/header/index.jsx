@@ -14,10 +14,10 @@ export default function Header() {
           <li>ABOUT</li>
         </Link>
         <Link href={"/"}>
-          <li>WORKS</li>
+          <li>SKİLLS</li>
         </Link>
         <Link href={"/"}>
-          <li>BLOG</li>
+          <li>EXPERİENCE</li>
         </Link>
         <Link href={"/"}>
           <li>CONTACT</li>

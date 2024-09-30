@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     img: <JavascriptIcon />,
-    title: "JAVASCRİPT",
+    title: "JAVASCRIPT",
     content:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, quo!",
   },
