@@ -28,7 +28,6 @@ const data = [
 export default function Experience() {
   return (
     <div>
-      <h1>My Experience</h1>
       <div className="experienceContainer">
         <div className="year">
           <h2>08</h2>

@@ -56,7 +56,6 @@ const data = [
 export default function Skills() {
   return (
     <div>
-      <h1>My Skills</h1>
       <div className="skillsContainer">
         {data.map((x) => (
           <div key={x.id} className="skillsCard">

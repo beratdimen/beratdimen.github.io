@@ -18,19 +18,19 @@ export default function Header() {
         <Link href={"/"}>
           <li>HOME</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/slider"}>
           <li>ABOUT</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/skills"}>
           <li>SKİLLS</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/experience"}>
           <li>EXPERİENCE</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/projects"}>
           <li>PROJECTS</li>
         </Link>{" "}
-        <Link href={"/"}>
+        <Link href={"/contact"}>
           <li>CONTACT</li>
         </Link>
       </ul>

@@ -45,11 +45,31 @@ export default function Projects() {
         github: "https://github.com/beratdimen/pomodoro",
       },
     },
+    {
+      id: 5,
+      img: "/img/promise.png",
+      title: "Promise",
+      detail: "View Detail",
+      links: {
+        live: "https://promisestudy.netlify.app/",
+        github: "https://github.com/beratdimen/promise-study-case",
+      },
+    },
+
+    {
+      id: 5,
+      img: "/img/quizApp.png",
+      title: "Front-End Quiz",
+      detail: "View Detail",
+      links: {
+        live: "https://promisestudy.netlify.app/",
+        github: "https://github.com/beratdimen/frontEndQuizApp",
+      },
+    },
   ];
 
   return (
     <div>
-      <h1>My Projects</h1>
       <div className="projectsContainer">
         {data.map((x) => (
           <div key={x.id} className="projectCard">
