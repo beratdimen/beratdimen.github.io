@@ -4,11 +4,17 @@
 
   justify-content: space-evenly;
   padding: 16px;
-  margin-block: 16px;
+  margin-block: 128px;
 
   h3 {
     font-size: 24px;
     font-weight: bold;
     color: white;
+  }
+}
+
+@media (width <=426px) {
+  .webSiteBandContainer {
+    margin-block: 56px;
   }
 }

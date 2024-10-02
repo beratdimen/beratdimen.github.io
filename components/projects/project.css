@@ -36,6 +36,13 @@ h1 {
       align-items: center;
       justify-content: space-between;
 
+      .detail:hover {
+        background: linear-gradient(90deg, rgb(85, 83, 226), rgb(60, 60, 180));
+        color: white;
+        padding: 4px 8px;
+        border-radius: 8px;
+      }
+
       .icons {
         display: flex;
         align-items: center;
@@ -59,5 +66,14 @@ h1 {
 @media (width <= 426px) {
   .projectsContainer {
     grid-template-columns: 1fr;
+    padding: 24px;
+
+    .projectCard {
+      width: fit-content;
+
+      .icons {
+        width: 46px;
+      }
+    }
   }
 }

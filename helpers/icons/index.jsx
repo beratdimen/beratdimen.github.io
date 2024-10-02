@@ -153,9 +153,9 @@ export function RightIcom() {
       <path
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
         d="m19 12l12 12l-12 12"
       />
     </svg>
@@ -173,9 +173,9 @@ export function LiveIcon() {
       <g
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
       >
         <path d="M20.94 13.045A9 9 0 1 0 11.987 21M3.6 9h16.8M3.6 15H13" />
         <path d="M11.5 3a17 17 0 0 0 0 18m1-18a17 17 0 0 1 2.529 10.294M16 22l5-5m0 4.5V17h-4.5" />
@@ -192,7 +192,7 @@ export function GithubIcon() {
       height="24px"
       viewBox="0 0 48 48"
     >
-      <g fill-rule="evenodd" clip-rule="evenodd">
+      <g fillRule="evenodd" clipRule="evenodd">
         <path d="M24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4ZM0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z" />
         <path d="M19.1833 45.4716C18.9898 45.2219 18.9898 42.9973 19.1833 38.798C17.1114 38.8696 15.8024 38.7258 15.2563 38.3667C14.437 37.828 13.6169 36.1667 12.8891 34.9959C12.1614 33.8251 10.5463 33.64 9.89405 33.3783C9.24182 33.1165 9.07809 32.0496 11.6913 32.8565C14.3044 33.6634 14.4319 35.8607 15.2563 36.3745C16.0806 36.8883 18.0515 36.6635 18.9448 36.2519C19.8382 35.8403 19.7724 34.3078 19.9317 33.7007C20.1331 33.134 19.4233 33.0083 19.4077 33.0037C18.5355 33.0037 13.9539 32.0073 12.6955 27.5706C11.437 23.134 13.0581 20.2341 13.9229 18.9875C14.4995 18.1564 14.4485 16.3852 13.7699 13.6737C16.2335 13.3589 18.1347 14.1343 19.4734 16.0001C19.4747 16.0108 21.2285 14.9572 24.0003 14.9572C26.772 14.9572 27.7553 15.8154 28.5142 16.0001C29.2731 16.1848 29.88 12.7341 34.5668 13.6737C33.5883 15.5969 32.7689 18.0001 33.3943 18.9875C34.0198 19.9749 36.4745 23.1147 34.9666 27.5706C33.9614 30.5413 31.9853 32.3523 29.0384 33.0037C28.7005 33.1115 28.5315 33.2855 28.5315 33.5255C28.5315 33.8856 28.9884 33.9249 29.6465 35.6117C30.0853 36.7362 30.117 39.948 29.7416 45.247C28.7906 45.4891 28.0508 45.6516 27.5221 45.7347C26.5847 45.882 25.5669 45.9646 24.5669 45.9965C23.5669 46.0284 23.2196 46.0248 21.837 45.8961C20.9154 45.8103 20.0308 45.6688 19.1833 45.4716Z" />
       </g>
@@ -234,10 +234,10 @@ export function InstagramIcon() {
             gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#fd5" />
-            <stop offset=".1" stop-color="#fd5" />
-            <stop offset=".5" stop-color="#ff543e" />
-            <stop offset="1" stop-color="#c837ab" />
+            <stop stopColor="#fd5" />
+            <stop offset=".1" stopColor="#fd5" />
+            <stop offset=".5" stopColor="#ff543e" />
+            <stop offset="1" stopColor="#c837ab" />
           </radialGradient>
           <radialGradient
             id="skillIconsInstagram1"
@@ -247,9 +247,9 @@ export function InstagramIcon() {
             gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#3771c8" />
-            <stop offset=".128" stop-color="#3771c8" />
-            <stop offset="1" stop-color="#60f" stop-opacity="0" />
+            <stop stopColor="#3771c8" />
+            <stop offset=".128" stopColor="#3771c8" />
+            <stop offset="1" stopColor="#60f" stopOpacity="0" />
           </radialGradient>
         </defs>
       </g>
@@ -269,6 +269,28 @@ export function LinkedinIcon() {
         fill="currentColor"
         d="M27.26 27.271h-4.733v-7.427c0-1.771-.037-4.047-2.475-4.047c-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739V11.999h4.552v2.083h.061c.636-1.203 2.183-2.468 4.491-2.468c4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912a2.75 2.75 0 0 1-2.751-2.756a2.753 2.753 0 1 1 2.751 2.756m2.374 17.359H4.74V12h4.749zM29.636 0H2.36C1.057 0 0 1.031 0 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307V2.307C32 1.031 30.932 0 29.631 0z"
       />
+    </svg>
+  );
+}
+
+export function CloseIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="32px"
+      height="32px"
+      viewBox="0 0 48 48"
+    >
+      <g
+        fill="none"
+        stroke="#000"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="4"
+      >
+        <path d="M14 14L34 34" />
+        <path d="M14 34L34 14" />
+      </g>
     </svg>
   );
 }

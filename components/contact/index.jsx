@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <div className="contactContainer">
       <div className="contactMe">
-        <h1>Contact</h1>
+        <h1>Detail</h1>
         <p>
           I would be delighted to assist you with my experience and expertise.
           If you’d like to collaborate on your projects, exchange ideas, or have

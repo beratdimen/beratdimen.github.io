@@ -4,7 +4,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 75px;
 
   .contactMe {
     display: flex;
@@ -92,6 +92,30 @@
       padding: 8px 16px;
       border-radius: 16px;
       cursor: pointer;
+    }
+  }
+}
+
+@media (width <=426px) {
+  .contactContainer {
+    flex-direction: column;
+    padding: 24px;
+
+    .form,
+    .contactMe {
+      width: fit-content;
+    }
+
+    .form {
+      input,
+      textarea,
+      p {
+        font-size: 12px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
     }
   }
 }

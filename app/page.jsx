@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <WebSiteBand />
+      <WebSiteBand title="Skills" />
       <Skills />
-      <WebSiteBand />
+      <WebSiteBand title="Experience" />
       <Experience />
-      <WebSiteBand />
+      <WebSiteBand title="Projects" />
       <Projects />
-      <WebSiteBand />
+      <WebSiteBand title="Contact" />
       <Contact />
     </>
   );

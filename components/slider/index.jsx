@@ -1,11 +1,12 @@
 import "@/components/slider/slider.css";
+import { RightIcom } from "@/helpers/icons";
 import Link from "next/link";
 
 export default function Slider() {
   return (
     <div className="sliderContainer">
       <div className="sliderGeneral">
-        <img height={500} src="/img/berat.JPG" />
+        <img src="/img/berat.JPG" />
 
         <div className="sliderContent">
           <div className="sliderHeader">
@@ -20,7 +21,16 @@ export default function Slider() {
             visually appealing websites. Let’s connect and bring your ideas to
             life!
           </p>
-          <Link href={"/"}>About Me</Link>
+          <div className="btns">
+            <Link href={"/slider"}>About Me</Link>
+            <Link
+              className="cvBtn"
+              href={"./doc/beratdimen-cv.pdf"}
+              target="blank"
+            >
+              Cv <RightIcom />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

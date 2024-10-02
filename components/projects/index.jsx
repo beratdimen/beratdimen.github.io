@@ -82,7 +82,7 @@ export default function Projects() {
             />
             <h4>{x.title}</h4>
             <div className="links">
-              <Link href={""} target="blank">
+              <Link className="detail" href={""} target="blank">
                 {x.detail} <RightIcom />
               </Link>
               <div className="icons">
