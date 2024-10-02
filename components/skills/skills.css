@@ -41,10 +41,13 @@
       letter-spacing: 1.12px;
       cursor: pointer;
       width: fit-content;
+      padding: 4px 8px;
+      border-radius: 8px;
     }
 
     button:hover {
-      color: #0d90e5;
+      background: linear-gradient(90deg, rgb(85, 83, 226), rgb(60, 60, 180));
+      color: white;
     }
   }
 }

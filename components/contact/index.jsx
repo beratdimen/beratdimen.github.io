@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
           <div className="contactMeFooterDetail">
             <h5>Phone</h5>
-            <a href="tel:+905396729215">+90 539 672 9215</a>
+            <a href="">+90 999 999 9999</a>
           </div>
           <div className="contactMeFooterDetail">
             <h5>Email</h5>

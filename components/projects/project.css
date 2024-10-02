@@ -36,10 +36,13 @@ h1 {
       align-items: center;
       justify-content: space-between;
 
+      .detail {
+        padding: 4px 8px;
+      }
+
       .detail:hover {
         background: linear-gradient(90deg, rgb(85, 83, 226), rgb(60, 60, 180));
         color: white;
-        padding: 4px 8px;
         border-radius: 8px;
       }
 
