@@ -1,5 +1,5 @@
 import Slider from "@/components/slider";
 
-export default function () {
+export default function SliderPage() {
   return <Slider />;
 }

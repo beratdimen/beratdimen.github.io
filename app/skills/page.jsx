@@ -1,5 +1,5 @@
 import Skills from "@/components/skills";
 
-export default function () {
+export default function SkillsPage() {
   return <Skills />;
 }
