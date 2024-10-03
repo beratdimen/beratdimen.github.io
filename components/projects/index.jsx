@@ -57,12 +57,12 @@ export default function Projects() {
     },
 
     {
-      id: 5,
+      id: 6,
       img: "/img/quizApp.png",
       title: "Front-End Quiz",
       detail: "View Detail",
       links: {
-        live: "https://promisestudy.netlify.app/",
+        live: "https://front-end-quiz-app-next-4iqq.vercel.app/",
         github: "https://github.com/beratdimen/frontEndQuizApp",
       },
     },
