@@ -1,11 +1,15 @@
 .sliderContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+
   .sliderGeneral {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 48px;
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
     padding-block: 24px;
 
     img {
@@ -39,6 +43,7 @@
         padding: 8px 16px;
         border-radius: 8px;
         color: white;
+        transition: background 1s ease, color 1s ease;
       }
 
       a:hover {
@@ -56,6 +61,7 @@
         gap: 4px;
         background: transparent;
         color: black;
+        transition: background 1s ease, color 1s ease;
       }
       .cvBtn:hover {
         color: white;

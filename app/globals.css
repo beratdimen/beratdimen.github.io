@@ -10,7 +10,6 @@
 
 body {
   width: 100%;
-  margin-top: 140px;
   overflow-x: none;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -46,4 +45,17 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.generalBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 140px;
 }

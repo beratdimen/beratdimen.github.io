@@ -38,6 +38,8 @@ h1 {
 
       .detail {
         padding: 4px 8px;
+        background: transparent;
+        transition: background 1s ease-in-out, color 1s ease-in-out;
       }
 
       .detail:hover {

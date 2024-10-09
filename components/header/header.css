@@ -21,6 +21,7 @@
       opacity: 0.8;
       padding: 8px 16px;
       border-bottom: 3px solid white;
+      transition: border 1s ease, color 1s ease;
     }
     a:hover {
       border-color: rgb(85, 83, 226);

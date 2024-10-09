@@ -77,14 +77,14 @@ export default function Header() {
       </ul>
 
       <div className="socialIcon">
-        <Link href={"https://www.linkedin.com/in/berat-dimen/"}>
+        <Link href={"https://www.linkedin.com/in/berat-dimen/"} target="blank">
           <LinkedinIcon />
         </Link>
 
-        <Link href={"https://www.instagram.com/beratdimen/"}>
+        <Link href={"https://www.instagram.com/beratdimen/"} target="blank">
           <InstagramIcon />
         </Link>
-        <Link href={"https://github.com/beratdimen"}>
+        <Link href={"https://github.com/beratdimen"} target="blank">
           <GithubIcon />
         </Link>
       </div>
