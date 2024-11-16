@@ -43,6 +43,7 @@
       width: fit-content;
       padding: 4px 8px;
       border-radius: 8px;
+      transition: background 1s ease-in-out, color 1s ease-in-out;
     }
 
     button:hover {
