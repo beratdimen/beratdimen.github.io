@@ -27,7 +27,7 @@ export default function Contact() {
           <div className="contactMeFooterDetail">
             <h5>Email</h5>
             <a href="mailto:beratefedimen@hotmail.com">
-              beratefedimen@hotmail.com
+              beratefedimen@hotmail.comm
             </a>
           </div>
         </div>
