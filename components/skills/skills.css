@@ -87,6 +87,16 @@ dialog {
   }
 }
 
+@media (width <=780px) {
+  .skillsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px;
+    .skillsCard {
+      width: fit-content;
+    }
+  }
+}
+
 @media (width <=426px) {
   .skillsContainer {
     grid-template-columns: repeat(1, 1fr);
